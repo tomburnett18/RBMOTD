@@ -1,0 +1,1663 @@
+{
+ "players": [
+  {
+   "name": "Steven Gerrard",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Frank Lampard",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "John Terry",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Wayne Rooney",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "David Beckham",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Paul Scholes",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Michael Owen",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Alan Shearer",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Rio Ferdinand",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Ashley Cole",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Harry Kane",
+   "leagues": [
+    "pl",
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Jude Bellingham",
+   "leagues": [
+    "laliga",
+    "bundesliga"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Bukayo Saka",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Declan Rice",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Marcus Rashford",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Raheem Sterling",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Jamie Vardy",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Peter Crouch",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Jermain Defoe",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Phil Foden",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Jack Grealish",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Trent Alexander-Arnold",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Cole Palmer",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Paul Gascoigne",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1990s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Gary Lineker",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "1980s",
+    "1990s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Ian Wright",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s"
+   ],
+   "nation": "english",
+   "wc": false
+  },
+  {
+   "name": "Thierry Henry",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Zinedine Zidane",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Kylian Mbappé",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Antoine Griezmann",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "N'Golo Kanté",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Paul Pogba",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Patrick Vieira",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Nicolas Anelka",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "french",
+   "wc": false
+  },
+  {
+   "name": "Franck Ribéry",
+   "leagues": [
+    "bundesliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "french",
+   "wc": false
+  },
+  {
+   "name": "Karim Benzema",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": false
+  },
+  {
+   "name": "Olivier Giroud",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Eric Cantona",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s"
+   ],
+   "nation": "french",
+   "wc": false
+  },
+  {
+   "name": "Robert Pirès",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "french",
+   "wc": true
+  },
+  {
+   "name": "Xavi",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Andrés Iniesta",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Iker Casillas",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Sergio Ramos",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s",
+    "2020s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Carles Puyol",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Cesc Fàbregas",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Fernando Torres",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "David Silva",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "David Villa",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Xabi Alonso",
+   "leagues": [
+    "pl",
+    "laliga",
+    "bundesliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Pedri",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "spanish",
+   "wc": false
+  },
+  {
+   "name": "Rodri",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "spanish",
+   "wc": false
+  },
+  {
+   "name": "Raúl",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "spanish",
+   "wc": false
+  },
+  {
+   "name": "Juan Mata",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "spanish",
+   "wc": true
+  },
+  {
+   "name": "Ronaldo Nazário",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Ronaldinho",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Kaká",
+   "leagues": [
+    "seriea",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Rivaldo",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Roberto Carlos",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Neymar",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Cafu",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Roberto Firmino",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Vinícius Júnior",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Alisson",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Casemiro",
+   "leagues": [
+    "laliga",
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Philippe Coutinho",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "brazilian",
+   "wc": false
+  },
+  {
+   "name": "Juninho",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s"
+   ],
+   "nation": "brazilian",
+   "wc": true
+  },
+  {
+   "name": "Lionel Messi",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s",
+    "2020s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Diego Maradona",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "1980s",
+    "1990s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Sergio Agüero",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Carlos Tevez",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Gabriel Batistuta",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Ángel Di María",
+   "leagues": [
+    "laliga",
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Javier Zanetti",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s",
+    "2010s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Javier Mascherano",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Hernán Crespo",
+   "leagues": [
+    "seriea",
+    "pl"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "argentine",
+   "wc": false
+  },
+  {
+   "name": "Lautaro Martínez",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Julián Álvarez",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Emiliano Martínez",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "argentine",
+   "wc": true
+  },
+  {
+   "name": "Miroslav Klose",
+   "leagues": [
+    "bundesliga",
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Thomas Müller",
+   "leagues": [
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Manuel Neuer",
+   "leagues": [
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Bastian Schweinsteiger",
+   "leagues": [
+    "bundesliga",
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Toni Kroos",
+   "leagues": [
+    "laliga",
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Philipp Lahm",
+   "leagues": [
+    "bundesliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Michael Ballack",
+   "leagues": [
+    "bundesliga",
+    "pl"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "german",
+   "wc": false
+  },
+  {
+   "name": "Mesut Özil",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Jürgen Klinsmann",
+   "leagues": [
+    "bundesliga",
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1980s",
+    "1990s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Oliver Kahn",
+   "leagues": [
+    "bundesliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "german",
+   "wc": false
+  },
+  {
+   "name": "Lothar Matthäus",
+   "leagues": [
+    "bundesliga",
+    "seriea"
+   ],
+   "eras": [
+    "1980s",
+    "1990s"
+   ],
+   "nation": "german",
+   "wc": true
+  },
+  {
+   "name": "Gianluigi Buffon",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s",
+    "2010s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Andrea Pirlo",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Francesco Totti",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s",
+    "2010s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Paolo Maldini",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1980s",
+    "1990s",
+    "2000s"
+   ],
+   "nation": "italian",
+   "wc": false
+  },
+  {
+   "name": "Fabio Cannavaro",
+   "leagues": [
+    "seriea",
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Alessandro Del Piero",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Roberto Baggio",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "1980s",
+    "1990s"
+   ],
+   "nation": "italian",
+   "wc": false
+  },
+  {
+   "name": "Gianfranco Zola",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "italian",
+   "wc": false
+  },
+  {
+   "name": "Gennaro Gattuso",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "italian",
+   "wc": true
+  },
+  {
+   "name": "Mario Balotelli",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "italian",
+   "wc": false
+  },
+  {
+   "name": "Giorgio Chiellini",
+   "leagues": [
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "italian",
+   "wc": false
+  },
+  {
+   "name": "Robin van Persie",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Ruud van Nistelrooy",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Arjen Robben",
+   "leagues": [
+    "pl",
+    "laliga",
+    "bundesliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Wesley Sneijder",
+   "leagues": [
+    "seriea",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Dennis Bergkamp",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Virgil van Dijk",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Patrick Kluivert",
+   "leagues": [
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Clarence Seedorf",
+   "leagues": [
+    "seriea",
+    "laliga"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Edwin van der Sar",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Dirk Kuyt",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "dutch",
+   "wc": false
+  },
+  {
+   "name": "Cristiano Ronaldo",
+   "leagues": [
+    "pl",
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s",
+    "2020s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Luís Figo",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Deco",
+   "leagues": [
+    "laliga",
+    "pl"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Bruno Fernandes",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Bernardo Silva",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Rúben Dias",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "portuguese",
+   "wc": false
+  },
+  {
+   "name": "Didier Drogba",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Mohamed Salah",
+   "leagues": [
+    "pl",
+    "seriea"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Erling Haaland",
+   "leagues": [
+    "pl",
+    "bundesliga"
+   ],
+   "eras": [
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Kevin De Bruyne",
+   "leagues": [
+    "pl",
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Vincent Kompany",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Yaya Touré",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Luis Suárez",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Eden Hazard",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Son Heung-min",
+   "leagues": [
+    "pl",
+    "bundesliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Petr Čech",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Peter Schmeichel",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "1990s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Nemanja Vidić",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Michael Essien",
+   "leagues": [
+    "pl"
+   ],
+   "eras": [
+    "2000s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Gareth Bale",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Luka Modrić",
+   "leagues": [
+    "pl",
+    "laliga"
+   ],
+   "eras": [
+    "2000s",
+    "2010s",
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Robert Lewandowski",
+   "leagues": [
+    "bundesliga",
+    "laliga"
+   ],
+   "eras": [
+    "2010s",
+    "2020s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Zlatan Ibrahimović",
+   "leagues": [
+    "seriea",
+    "laliga",
+    "pl"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Samuel Eto'o",
+   "leagues": [
+    "laliga",
+    "seriea"
+   ],
+   "eras": [
+    "2000s",
+    "2010s"
+   ],
+   "nation": "other",
+   "wc": false
+  },
+  {
+   "name": "Andriy Shevchenko",
+   "leagues": [
+    "seriea",
+    "pl"
+   ],
+   "eras": [
+    "1990s",
+    "2000s"
+   ],
+   "nation": "other",
+   "wc": false
+  }
+ ]
+}

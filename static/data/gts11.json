@@ -1,0 +1,1027 @@
+{
+ "_note": "Starter dataset. Rows run goalkeeper -> attack. Please verify.",
+ "matches": [
+  {
+   "id": "ucl2019",
+   "comp": "Champions League final",
+   "date": "2019-06-01",
+   "home": "Tottenham",
+   "away": "Liverpool",
+   "score": "0–2",
+   "note": "",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Hugo Lloris"
+    ],
+    [
+     "Kieran Trippier",
+     "Toby Alderweireld",
+     "Jan Vertonghen",
+     "Danny Rose"
+    ],
+    [
+     "Moussa Sissoko",
+     "Harry Winks"
+    ],
+    [
+     "Christian Eriksen",
+     "Dele Alli",
+     "Son Heung-min"
+    ],
+    [
+     "Harry Kane"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Alisson"
+    ],
+    [
+     "Trent Alexander-Arnold",
+     "Joël Matip",
+     "Virgil van Dijk",
+     "Andrew Robertson"
+    ],
+    [
+     "Jordan Henderson",
+     "Fabinho",
+     "Georginio Wijnaldum"
+    ],
+    [
+     "Mohamed Salah",
+     "Roberto Firmino",
+     "Sadio Mané"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2021",
+   "comp": "Champions League final",
+   "date": "2021-05-29",
+   "home": "Manchester City",
+   "away": "Chelsea",
+   "score": "0–1",
+   "note": "",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Ederson"
+    ],
+    [
+     "Kyle Walker",
+     "John Stones",
+     "Rúben Dias",
+     "Oleksandr Zinchenko"
+    ],
+    [
+     "Kevin De Bruyne",
+     "İlkay Gündoğan",
+     "Bernardo Silva"
+    ],
+    [
+     "Riyad Mahrez",
+     "Phil Foden",
+     "Raheem Sterling"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Édouard Mendy"
+    ],
+    [
+     "César Azpilicueta",
+     "Thiago Silva",
+     "Antonio Rüdiger"
+    ],
+    [
+     "Reece James",
+     "N'Golo Kanté",
+     "Jorginho",
+     "Ben Chilwell"
+    ],
+    [
+     "Mason Mount",
+     "Kai Havertz",
+     "Timo Werner"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2023",
+   "comp": "Champions League final",
+   "date": "2023-06-10",
+   "home": "Manchester City",
+   "away": "Inter Milan",
+   "score": "1–0",
+   "note": "",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Ederson"
+    ],
+    [
+     "Kyle Walker",
+     "Rúben Dias",
+     "Nathan Aké"
+    ],
+    [
+     "John Stones",
+     "Rodri"
+    ],
+    [
+     "Bernardo Silva",
+     "Kevin De Bruyne",
+     "İlkay Gündoğan",
+     "Jack Grealish"
+    ],
+    [
+     "Erling Haaland"
+    ]
+   ],
+   "awayXI": [
+    [
+     "André Onana"
+    ],
+    [
+     "Matteo Darmian",
+     "Francesco Acerbi",
+     "Alessandro Bastoni"
+    ],
+    [
+     "Denzel Dumfries",
+     "Nicolò Barella",
+     "Marcelo Brozović",
+     "Hakan Çalhanoğlu",
+     "Federico Dimarco"
+    ],
+    [
+     "Edin Džeko",
+     "Lautaro Martínez"
+    ]
+   ]
+  },
+  {
+   "id": "wc2022",
+   "comp": "World Cup final",
+   "date": "2022-12-18",
+   "home": "Argentina",
+   "away": "France",
+   "score": "3–3",
+   "note": "Argentina won 4–2 on penalties",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Emiliano Martínez"
+    ],
+    [
+     "Nahuel Molina",
+     "Cristian Romero",
+     "Nicolás Otamendi",
+     "Nicolás Tagliafico"
+    ],
+    [
+     "Rodrigo De Paul",
+     "Enzo Fernández",
+     "Alexis Mac Allister"
+    ],
+    [
+     "Lionel Messi",
+     "Julián Álvarez",
+     "Ángel Di María"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Hugo Lloris"
+    ],
+    [
+     "Jules Koundé",
+     "Raphaël Varane",
+     "Dayot Upamecano",
+     "Theo Hernández"
+    ],
+    [
+     "Aurélien Tchouaméni",
+     "Adrien Rabiot"
+    ],
+    [
+     "Ousmane Dembélé",
+     "Antoine Griezmann",
+     "Kylian Mbappé"
+    ],
+    [
+     "Olivier Giroud"
+    ]
+   ]
+  },
+  {
+   "id": "wc2018",
+   "comp": "World Cup final",
+   "date": "2018-07-15",
+   "home": "France",
+   "away": "Croatia",
+   "score": "4–2",
+   "note": "",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Hugo Lloris"
+    ],
+    [
+     "Benjamin Pavard",
+     "Raphaël Varane",
+     "Samuel Umtiti",
+     "Lucas Hernández"
+    ],
+    [
+     "N'Golo Kanté",
+     "Paul Pogba"
+    ],
+    [
+     "Kylian Mbappé",
+     "Antoine Griezmann",
+     "Blaise Matuidi"
+    ],
+    [
+     "Olivier Giroud"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Danijel Subašić"
+    ],
+    [
+     "Šime Vrsaljko",
+     "Dejan Lovren",
+     "Domagoj Vida",
+     "Ivan Strinić"
+    ],
+    [
+     "Marcelo Brozović",
+     "Ivan Rakitić"
+    ],
+    [
+     "Ante Rebić",
+     "Luka Modrić",
+     "Ivan Perišić"
+    ],
+    [
+     "Mario Mandžukić"
+    ]
+   ]
+  },
+  {
+   "id": "pl2012qpr",
+   "comp": "Premier League",
+   "date": "2012-05-13",
+   "home": "Manchester City",
+   "away": "QPR",
+   "score": "3–2",
+   "note": "",
+   "difficulty": "easy",
+   "homeXI": [
+    [
+     "Joe Hart"
+    ],
+    [
+     "Pablo Zabaleta",
+     "Vincent Kompany",
+     "Joleon Lescott",
+     "Gaël Clichy"
+    ],
+    [
+     "Yaya Touré",
+     "Gareth Barry"
+    ],
+    [
+     "David Silva",
+     "Samir Nasri"
+    ],
+    [
+     "Carlos Tevez",
+     "Sergio Agüero"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Paddy Kenny"
+    ],
+    [
+     "Nedum Onuoha",
+     "Anton Ferdinand",
+     "Clint Hill",
+     "Taye Taiwo"
+    ],
+    [
+     "Shaun Wright-Phillips",
+     "Joey Barton",
+     "Shaun Derry",
+     "Jamie Mackie"
+    ],
+    [
+     "Bobby Zamora",
+     "Djibril Cissé"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2005",
+   "comp": "Champions League final",
+   "date": "2005-05-25",
+   "home": "AC Milan",
+   "away": "Liverpool",
+   "score": "3–3",
+   "note": "Liverpool won 3–2 on penalties",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Dida"
+    ],
+    [
+     "Cafu",
+     "Jaap Stam",
+     "Alessandro Nesta",
+     "Paolo Maldini"
+    ],
+    [
+     "Gennaro Gattuso",
+     "Andrea Pirlo",
+     "Clarence Seedorf"
+    ],
+    [
+     "Kaká"
+    ],
+    [
+     "Andriy Shevchenko",
+     "Hernán Crespo"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Jerzy Dudek"
+    ],
+    [
+     "Steve Finnan",
+     "Jamie Carragher",
+     "Sami Hyypiä",
+     "Djimi Traoré"
+    ],
+    [
+     "Luis García",
+     "Steven Gerrard",
+     "Xabi Alonso",
+     "John Arne Riise"
+    ],
+    [
+     "Harry Kewell",
+     "Milan Baroš"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2008",
+   "comp": "Champions League final",
+   "date": "2008-05-21",
+   "home": "Manchester United",
+   "away": "Chelsea",
+   "score": "1–1",
+   "note": "Manchester United won 6–5 on penalties",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Edwin van der Sar"
+    ],
+    [
+     "Wes Brown",
+     "Rio Ferdinand",
+     "Nemanja Vidić",
+     "Patrice Evra"
+    ],
+    [
+     "Owen Hargreaves",
+     "Paul Scholes",
+     "Michael Carrick"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Wayne Rooney",
+     "Carlos Tevez"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Petr Čech"
+    ],
+    [
+     "Michael Essien",
+     "Ricardo Carvalho",
+     "John Terry",
+     "Ashley Cole"
+    ],
+    [
+     "Claude Makélélé",
+     "Michael Ballack",
+     "Frank Lampard"
+    ],
+    [
+     "Joe Cole",
+     "Didier Drogba",
+     "Florent Malouda"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2009",
+   "comp": "Champions League final",
+   "date": "2009-05-27",
+   "home": "Barcelona",
+   "away": "Manchester United",
+   "score": "2–0",
+   "note": "",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Víctor Valdés"
+    ],
+    [
+     "Carles Puyol",
+     "Yaya Touré",
+     "Gerard Piqué",
+     "Sylvinho"
+    ],
+    [
+     "Xavi",
+     "Sergio Busquets",
+     "Andrés Iniesta"
+    ],
+    [
+     "Lionel Messi",
+     "Samuel Eto'o",
+     "Thierry Henry"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Edwin van der Sar"
+    ],
+    [
+     "John O'Shea",
+     "Rio Ferdinand",
+     "Nemanja Vidić",
+     "Patrice Evra"
+    ],
+    [
+     "Anderson",
+     "Michael Carrick",
+     "Ryan Giggs",
+     "Park Ji-sung"
+    ],
+    [
+     "Cristiano Ronaldo",
+     "Wayne Rooney"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2011",
+   "comp": "Champions League final",
+   "date": "2011-05-28",
+   "home": "Barcelona",
+   "away": "Manchester United",
+   "score": "3–1",
+   "note": "",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Víctor Valdés"
+    ],
+    [
+     "Dani Alves",
+     "Gerard Piqué",
+     "Javier Mascherano",
+     "Éric Abidal"
+    ],
+    [
+     "Sergio Busquets",
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    [
+     "Pedro",
+     "Lionel Messi",
+     "David Villa"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Edwin van der Sar"
+    ],
+    [
+     "Fábio",
+     "Rio Ferdinand",
+     "Nemanja Vidić",
+     "Patrice Evra"
+    ],
+    [
+     "Antonio Valencia",
+     "Michael Carrick",
+     "Ryan Giggs",
+     "Park Ji-sung"
+    ],
+    [
+     "Wayne Rooney",
+     "Javier Hernández"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2012",
+   "comp": "Champions League final",
+   "date": "2012-05-19",
+   "home": "Bayern Munich",
+   "away": "Chelsea",
+   "score": "1–1",
+   "note": "Chelsea won 4–3 on penalties",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Manuel Neuer"
+    ],
+    [
+     "Philipp Lahm",
+     "Jérôme Boateng",
+     "Anatoliy Tymoshchuk",
+     "Diego Contento"
+    ],
+    [
+     "Bastian Schweinsteiger",
+     "Toni Kroos"
+    ],
+    [
+     "Arjen Robben",
+     "Thomas Müller",
+     "Franck Ribéry"
+    ],
+    [
+     "Mario Gómez"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Petr Čech"
+    ],
+    [
+     "José Bosingwa",
+     "Gary Cahill",
+     "David Luiz",
+     "Ashley Cole"
+    ],
+    [
+     "John Obi Mikel",
+     "Frank Lampard"
+    ],
+    [
+     "Salomon Kalou",
+     "Juan Mata",
+     "Ryan Bertrand"
+    ],
+    [
+     "Didier Drogba"
+    ]
+   ]
+  },
+  {
+   "id": "wc2014",
+   "comp": "World Cup final",
+   "date": "2014-07-13",
+   "home": "Germany",
+   "away": "Argentina",
+   "score": "1–0",
+   "note": "After extra time",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Manuel Neuer"
+    ],
+    [
+     "Philipp Lahm",
+     "Jérôme Boateng",
+     "Mats Hummels",
+     "Benedikt Höwedes"
+    ],
+    [
+     "Bastian Schweinsteiger",
+     "Christoph Kramer"
+    ],
+    [
+     "Thomas Müller",
+     "Toni Kroos",
+     "Mesut Özil"
+    ],
+    [
+     "Miroslav Klose"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Sergio Romero"
+    ],
+    [
+     "Pablo Zabaleta",
+     "Martín Demichelis",
+     "Ezequiel Garay",
+     "Marcos Rojo"
+    ],
+    [
+     "Javier Mascherano",
+     "Lucas Biglia",
+     "Enzo Pérez"
+    ],
+    [
+     "Lionel Messi",
+     "Gonzalo Higuaín",
+     "Ezequiel Lavezzi"
+    ]
+   ]
+  },
+  {
+   "id": "wc2010",
+   "comp": "World Cup final",
+   "date": "2010-07-11",
+   "home": "Netherlands",
+   "away": "Spain",
+   "score": "0–1",
+   "note": "After extra time",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "Maarten Stekelenburg"
+    ],
+    [
+     "Gregory van der Wiel",
+     "John Heitinga",
+     "Joris Mathijsen",
+     "Giovanni van Bronckhorst"
+    ],
+    [
+     "Mark van Bommel",
+     "Nigel de Jong"
+    ],
+    [
+     "Arjen Robben",
+     "Wesley Sneijder",
+     "Dirk Kuyt"
+    ],
+    [
+     "Robin van Persie"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Iker Casillas"
+    ],
+    [
+     "Sergio Ramos",
+     "Gerard Piqué",
+     "Carles Puyol",
+     "Joan Capdevila"
+    ],
+    [
+     "Sergio Busquets",
+     "Xabi Alonso"
+    ],
+    [
+     "Pedro",
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    [
+     "David Villa"
+    ]
+   ]
+  },
+  {
+   "id": "pl2011mu8",
+   "comp": "Premier League",
+   "date": "2011-08-28",
+   "home": "Manchester United",
+   "away": "Arsenal",
+   "score": "8–2",
+   "note": "",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "David de Gea"
+    ],
+    [
+     "Chris Smalling",
+     "Phil Jones",
+     "Jonny Evans",
+     "Patrice Evra"
+    ],
+    [
+     "Nani",
+     "Anderson",
+     "Tom Cleverley",
+     "Ashley Young"
+    ],
+    [
+     "Danny Welbeck",
+     "Wayne Rooney"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Wojciech Szczęsny"
+    ],
+    [
+     "Carl Jenkinson",
+     "Johan Djourou",
+     "Laurent Koscielny",
+     "Armand Traoré"
+    ],
+    [
+     "Aaron Ramsey",
+     "Francis Coquelin",
+     "Tomáš Rosický"
+    ],
+    [
+     "Theo Walcott",
+     "Robin van Persie",
+     "Andrey Arshavin"
+    ]
+   ]
+  },
+  {
+   "id": "pl2011mc6",
+   "comp": "Premier League",
+   "date": "2011-10-23",
+   "home": "Manchester United",
+   "away": "Manchester City",
+   "score": "1–6",
+   "note": "",
+   "difficulty": "medium",
+   "homeXI": [
+    [
+     "David de Gea"
+    ],
+    [
+     "Chris Smalling",
+     "Rio Ferdinand",
+     "Jonny Evans",
+     "Patrice Evra"
+    ],
+    [
+     "Nani",
+     "Darren Fletcher",
+     "Anderson",
+     "Ashley Young"
+    ],
+    [
+     "Wayne Rooney",
+     "Danny Welbeck"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Joe Hart"
+    ],
+    [
+     "Micah Richards",
+     "Vincent Kompany",
+     "Joleon Lescott",
+     "Gaël Clichy"
+    ],
+    [
+     "James Milner",
+     "Gareth Barry",
+     "Yaya Touré",
+     "David Silva"
+    ],
+    [
+     "Sergio Agüero",
+     "Mario Balotelli"
+    ]
+   ]
+  },
+  {
+   "id": "wc2002",
+   "comp": "World Cup final",
+   "date": "2002-06-30",
+   "home": "Germany",
+   "away": "Brazil",
+   "score": "0–2",
+   "note": "",
+   "difficulty": "hard",
+   "homeXI": [
+    [
+     "Oliver Kahn"
+    ],
+    [
+     "Thomas Linke",
+     "Carsten Ramelow",
+     "Christoph Metzelder"
+    ],
+    [
+     "Torsten Frings",
+     "Dietmar Hamann",
+     "Jens Jeremies",
+     "Bernd Schneider",
+     "Marco Bode"
+    ],
+    [
+     "Miroslav Klose",
+     "Oliver Neuville"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Marcos"
+    ],
+    [
+     "Lúcio",
+     "Edmílson",
+     "Roque Júnior"
+    ],
+    [
+     "Cafu",
+     "Gilberto Silva",
+     "Kléberson",
+     "Roberto Carlos"
+    ],
+    [
+     "Ronaldinho",
+     "Rivaldo"
+    ],
+    [
+     "Ronaldo"
+    ]
+   ]
+  },
+  {
+   "id": "wc2006",
+   "comp": "World Cup final",
+   "date": "2006-07-09",
+   "home": "Italy",
+   "away": "France",
+   "score": "1–1",
+   "note": "Italy won 5–3 on penalties",
+   "difficulty": "hard",
+   "homeXI": [
+    [
+     "Gianluigi Buffon"
+    ],
+    [
+     "Gianluca Zambrotta",
+     "Fabio Cannavaro",
+     "Marco Materazzi",
+     "Fabio Grosso"
+    ],
+    [
+     "Gennaro Gattuso",
+     "Andrea Pirlo"
+    ],
+    [
+     "Mauro Camoranesi",
+     "Simone Perrotta",
+     "Francesco Totti"
+    ],
+    [
+     "Luca Toni"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Fabien Barthez"
+    ],
+    [
+     "Willy Sagnol",
+     "Lilian Thuram",
+     "William Gallas",
+     "Éric Abidal"
+    ],
+    [
+     "Claude Makélélé",
+     "Patrick Vieira"
+    ],
+    [
+     "Franck Ribéry",
+     "Zinedine Zidane",
+     "Florent Malouda"
+    ],
+    [
+     "Thierry Henry"
+    ]
+   ]
+  },
+  {
+   "id": "ucl2003",
+   "comp": "Champions League final",
+   "date": "2003-05-28",
+   "home": "Juventus",
+   "away": "AC Milan",
+   "score": "0–0",
+   "note": "Milan won 3–2 on penalties",
+   "difficulty": "hard",
+   "homeXI": [
+    [
+     "Gianluigi Buffon"
+    ],
+    [
+     "Lilian Thuram",
+     "Ciro Ferrara",
+     "Paolo Montero",
+     "Igor Tudor"
+    ],
+    [
+     "Mauro Camoranesi",
+     "Alessio Tacchinardi",
+     "Edgar Davids",
+     "Gianluca Zambrotta"
+    ],
+    [
+     "Alessandro Del Piero",
+     "David Trezeguet"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Dida"
+    ],
+    [
+     "Alessandro Costacurta",
+     "Alessandro Nesta",
+     "Paolo Maldini",
+     "Kakha Kaladze"
+    ],
+    [
+     "Gennaro Gattuso",
+     "Andrea Pirlo",
+     "Clarence Seedorf"
+    ],
+    [
+     "Rui Costa"
+    ],
+    [
+     "Andriy Shevchenko",
+     "Filippo Inzaghi"
+    ]
+   ]
+  },
+  {
+   "id": "pl2009liv",
+   "comp": "Premier League",
+   "date": "2009-03-14",
+   "home": "Manchester United",
+   "away": "Liverpool",
+   "score": "1–4",
+   "note": "",
+   "difficulty": "hard",
+   "homeXI": [
+    [
+     "Edwin van der Sar"
+    ],
+    [
+     "John O'Shea",
+     "Rio Ferdinand",
+     "Nemanja Vidić",
+     "Patrice Evra"
+    ],
+    [
+     "Park Ji-sung",
+     "Michael Carrick",
+     "Anderson",
+     "Cristiano Ronaldo"
+    ],
+    [
+     "Wayne Rooney",
+     "Dimitar Berbatov"
+    ]
+   ],
+   "awayXI": [
+    [
+     "Pepe Reina"
+    ],
+    [
+     "Jamie Carragher",
+     "Martin Škrtel",
+     "Sami Hyypiä",
+     "Fábio Aurélio"
+    ],
+    [
+     "Javier Mascherano",
+     "Lucas Leiva"
+    ],
+    [
+     "Dirk Kuyt",
+     "Steven Gerrard",
+     "Albert Riera"
+    ],
+    [
+     "Fernando Torres"
+    ]
+   ]
+  }
+ ]
+}

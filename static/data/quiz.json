@@ -1,0 +1,595 @@
+{
+ "questions": [
+  {
+   "type": "mc",
+   "q": "Who won the Premier League in 2015–16?",
+   "options": [
+    "Leicester City",
+    "Tottenham Hotspur",
+    "Arsenal"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Who scored the winner in the 2014 World Cup final?",
+   "options": [
+    "Thomas Müller",
+    "Mario Götze",
+    "André Schürrle"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which country hosted the 2010 World Cup?",
+   "options": [
+    "Brazil",
+    "Germany",
+    "South Africa"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "In which season did Arsenal go unbeaten in the league?",
+   "options": [
+    "2003–04",
+    "2001–02",
+    "2004–05"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which club did Man Utd sign Cristiano Ronaldo from in 2003?",
+   "options": [
+    "Benfica",
+    "Sporting CP",
+    "Porto"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "In what year did Liverpool win the Champions League in Istanbul?",
+   "options": [
+    "2004",
+    "2007",
+    "2005"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Who managed Chelsea to the 2012 Champions League?",
+   "options": [
+    "Roberto Di Matteo",
+    "André Villas-Boas",
+    "Rafael Benítez"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "How many points did Man City finish with in 2017–18?",
+   "options": [
+    "98",
+    "100",
+    "102"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which club is nicknamed the Toffees?",
+   "options": [
+    "Stoke City",
+    "Burnley",
+    "Everton"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Who won the Golden Boot at the 2018 World Cup?",
+   "options": [
+    "Harry Kane",
+    "Kylian Mbappé",
+    "Antoine Griezmann"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which club plays at Selhurst Park?",
+   "options": [
+    "Charlton Athletic",
+    "Crystal Palace",
+    "Fulham"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who has the most assists in Premier League history?",
+   "options": [
+    "Frank Lampard",
+    "Cesc Fàbregas",
+    "Ryan Giggs"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Agüero's famous title-winning goal in 2012 came against which team?",
+   "options": [
+    "QPR",
+    "Sunderland",
+    "Stoke City"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which country won Euro 2004?",
+   "options": [
+    "Portugal",
+    "Greece",
+    "Czech Republic"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who did Spain beat in the Euro 2012 final?",
+   "options": [
+    "Germany",
+    "Portugal",
+    "Italy"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Which club did Arsène Wenger manage just before Arsenal?",
+   "options": [
+    "Nagoya Grampus",
+    "Monaco",
+    "Strasbourg"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Roughly what did Chelsea pay Liverpool for Fernando Torres in 2011?",
+   "options": [
+    "£35m",
+    "£50m",
+    "£65m"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who won the first Premier League title in 1992–93?",
+   "options": [
+    "Blackburn Rovers",
+    "Aston Villa",
+    "Manchester United"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Who scored Chelsea's late equaliser in the 2012 Champions League final?",
+   "options": [
+    "Didier Drogba",
+    "Juan Mata",
+    "Frank Lampard"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which country won the 2006 World Cup?",
+   "options": [
+    "France",
+    "Italy",
+    "Germany"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "In which stadium was the 2022 World Cup final played?",
+   "options": [
+    "Al Bayt Stadium",
+    "Khalifa International",
+    "Lusail Stadium"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Which goalkeeper holds the Premier League record for clean sheets?",
+   "options": [
+    "Petr Čech",
+    "David James",
+    "Edwin van der Sar"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which club did Wayne Rooney leave to join Man Utd?",
+   "options": [
+    "Leeds United",
+    "Everton",
+    "Newcastle United"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who won the Premier League in 2004–05?",
+   "options": [
+    "Arsenal",
+    "Manchester United",
+    "Chelsea"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "How many Premier League goals did Alan Shearer score?",
+   "options": [
+    "260",
+    "250",
+    "270"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Which team did Man Utd play in the 2004 'Battle of the Buffet'?",
+   "options": [
+    "Chelsea",
+    "Arsenal",
+    "Liverpool"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which city is home to the Bernabéu?",
+   "options": [
+    "Barcelona",
+    "Seville",
+    "Madrid"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "mc",
+   "q": "Which club did Liverpool beat in the 2019 Champions League final?",
+   "options": [
+    "Tottenham Hotspur",
+    "Real Madrid",
+    "Barcelona"
+   ],
+   "answer": 0
+  },
+  {
+   "type": "mc",
+   "q": "Who won the FA Cup in 2008?",
+   "options": [
+    "Cardiff City",
+    "Portsmouth",
+    "West Brom"
+   ],
+   "answer": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which club did Mohamed Salah join Liverpool from?",
+   "options": [
+    "Chelsea",
+    "Fiorentina",
+    "Roma"
+   ],
+   "answer": 2
+  },
+  {
+   "type": "text",
+   "q": "Which country knocked England out of Euro 2016?",
+   "answers": [
+    "Iceland"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who is the Premier League's all-time top scorer?",
+   "answers": [
+    "Alan Shearer",
+    "Shearer"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club are nicknamed the Magpies and play at St James' Park?",
+   "answers": [
+    "Newcastle",
+    "Newcastle United",
+    "Newcastle Utd"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who captained Liverpool in the 2005 Champions League final?",
+   "answers": [
+    "Steven Gerrard",
+    "Gerrard"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which country won the 2010 World Cup?",
+   "answers": [
+    "Spain"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who scored the 'Hand of God' goal?",
+   "answers": [
+    "Diego Maradona",
+    "Maradona"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club did Arsenal sign Thierry Henry from?",
+   "answers": [
+    "Juventus",
+    "Juve"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who won the Ballon d'Or in 2008?",
+   "answers": [
+    "Cristiano Ronaldo",
+    "Ronaldo",
+    "Cristiano"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club won the 2004 Champions League under José Mourinho?",
+   "answers": [
+    "Porto",
+    "FC Porto"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "At which club did Frank Lampard start his career?",
+   "answers": [
+    "West Ham",
+    "West Ham United"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who scored England's goal in the Euro 2020 final?",
+   "answers": [
+    "Luke Shaw",
+    "Shaw"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which Leicester striker scored in 11 straight Premier League games in 2015?",
+   "answers": [
+    "Jamie Vardy",
+    "Vardy"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club did Chelsea sign Didier Drogba from in 2004?",
+   "answers": [
+    "Marseille",
+    "Olympique de Marseille",
+    "OM"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who managed England at the 2018 World Cup?",
+   "answers": [
+    "Gareth Southgate",
+    "Southgate"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who did Portugal beat in the Euro 2016 final?",
+   "answers": [
+    "France"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which London club plays at Craven Cottage?",
+   "answers": [
+    "Fulham"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who scored the Premier League's fastest hat-trick, in 2 minutes 56 seconds?",
+   "answers": [
+    "Sadio Mane",
+    "Mane"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which country co-hosted the 2002 World Cup with Japan?",
+   "answers": [
+    "South Korea",
+    "Korea"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who won the Golden Ball at the 2014 World Cup?",
+   "answers": [
+    "Lionel Messi",
+    "Messi"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which Dutch striker won the Golden Boot for Arsenal in 2011–12?",
+   "answers": [
+    "Robin van Persie",
+    "Van Persie",
+    "RVP"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who did Man Utd beat in the 1999 Champions League final?",
+   "answers": [
+    "Bayern Munich",
+    "Bayern",
+    "Bayern Munchen"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club did Chelsea sign Eden Hazard from?",
+   "answers": [
+    "Lille",
+    "LOSC"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club did Gareth Bale join when he left Tottenham in 2013?",
+   "answers": [
+    "Real Madrid",
+    "Madrid"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which country has won the most World Cups?",
+   "answers": [
+    "Brazil"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club won the Champions League in 2023?",
+   "answers": [
+    "Manchester City",
+    "Man City",
+    "City"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Who managed Arsenal's Invincibles?",
+   "answers": [
+    "Arsene Wenger",
+    "Wenger"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which Norwegian striker scored 36 Premier League goals in 2022–23?",
+   "answers": [
+    "Erling Haaland",
+    "Haaland"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which Spanish club play at the Mestalla?",
+   "answers": [
+    "Valencia"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "What nationality is Luka Modrić?",
+   "answers": [
+    "Croatian",
+    "Croatia"
+   ]
+  },
+  {
+   "type": "text",
+   "q": "Which club did Harry Kane join in 2023?",
+   "answers": [
+    "Bayern Munich",
+    "Bayern",
+    "Bayern Munchen"
+   ]
+  }
+ ],
+ "tiebreakers": [
+  {
+   "q": "In what year was the Premier League founded?",
+   "answer": 1992
+  },
+  {
+   "q": "How many Premier League goals did Alan Shearer score?",
+   "answer": 260
+  },
+  {
+   "q": "What is Wembley Stadium's capacity, roughly?",
+   "answer": 90000
+  },
+  {
+   "q": "How many league games did Arsenal's famous unbeaten run last?",
+   "answer": 49
+  },
+  {
+   "q": "How many Premier League appearances did Ryan Giggs make?",
+   "answer": 632
+  },
+  {
+   "q": "How many goals were scored at the 2022 World Cup?",
+   "answer": 172
+  },
+  {
+   "q": "In what year did the new Wembley open?",
+   "answer": 2007
+  },
+  {
+   "q": "How many Premier League appearances did Gareth Barry make?",
+   "answer": 653
+  },
+  {
+   "q": "How many Premier League goals did Thierry Henry score?",
+   "answer": 175
+  },
+  {
+   "q": "How many league goals did Erling Haaland score in 2022–23?",
+   "answer": 36
+  },
+  {
+   "q": "What fee, in £ millions, did Man City pay for Jack Grealish?",
+   "answer": 100
+  },
+  {
+   "q": "In what year did Man Utd win their first Premier League title?",
+   "answer": 1993
+  }
+ ]
+}
