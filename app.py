@@ -5,7 +5,7 @@ Phase 2 adds accounts, the daily RBMOTD, leaderboard and notifications here.
 """
 from flask import Flask, render_template, send_from_directory, jsonify
 
-APP_VERSION = "1.0.2"
+APP_VERSION = "1.2.0"
 
 app = Flask(__name__)
 

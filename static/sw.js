@@ -1,5 +1,5 @@
 // Bump CACHE when you deploy changes so phones pick up the new files.
-const CACHE = "rbmotd-v1.0.2";
+const CACHE = "rbmotd-v1.2.0";
 const ASSETS = [
   "/",
   "/static/css/app.css",
@@ -7,12 +7,12 @@ const ASSETS = [
   "/static/js/games/rbmotd.js",
   "/static/js/games/gts11.js",
   "/static/js/games/quiz.js",
-  "/static/js/games/f501.js",
+  "/static/js/games/fwordle.js",
   "/static/js/games/imposter.js",
   "/static/data/rbmotd.json",
   "/static/data/gts11.json",
   "/static/data/quiz.json",
-  "/static/data/f501.json",
+  "/static/data/fwordle.json",
   "/static/data/imposter.json",
   "/static/icons/icon-192.png",
   "/manifest.webmanifest"

@@ -223,9 +223,9 @@ p { margin: 0; }
 .kv { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 
 /* ---------------- RBMOTD ---------------- */
-.mystery { display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: center; }
-.mystery .frame { width: 120px; height: 140px; border-radius: 14px; background: rgba(0,0,0,.2); overflow: hidden; display: grid; place-items: end center; }
-.mystery .frame img { width: 100%; height: 100%; object-fit: cover; }
+.mystery { display: grid; grid-template-columns: 150px 1fr; gap: 16px; align-items: center; }
+.mystery .frame { width: 150px; height: 180px; border-radius: 14px; background: rgba(0,0,0,.2); overflow: hidden; display: grid; place-items: end center; }
+.mystery .frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .mystery .frame svg { width: 108px; height: 120px; }
 .clock { font-family: var(--display); font-weight: 800; font-size: 2.6rem; line-height: 1; }
 .hints { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
@@ -233,6 +233,8 @@ p { margin: 0; }
 .hints li b { font-weight: 700; }
 .reveal-name { font-family: var(--display); font-weight: 900; font-size: 2.8rem; line-height: .9; }
 .credit { font-size: .72rem; color: var(--chalk-3); }
+.credit a { color: inherit; }
+.reveal-photo { width: 120px; height: 144px; object-fit: cover; object-position: center 20%; border-radius: 12px; display: block; }
 
 /* ---------------- GTS11 pitch ---------------- */
 .match-head { text-align: center; }
@@ -265,6 +267,7 @@ p { margin: 0; }
 }
 .half.hide .pl .shirt { background: rgba(0,0,0,.28); color: var(--chalk-2); border: 2px dashed var(--chalk-3); }
 .half.hide .pl.got .shirt { background: var(--flag); color: #2B1E00; border: 0; }
+.half.hide .pl.got.p1 .shirt { background: #8EC5FF; color: #06203A; }
 .half.hide .pl.gaveup .shirt { background: var(--miss); color: #2A0500; border: 0; }
 .pl .nm { font-size: .7rem; font-weight: 700; text-align: center; line-height: 1.15; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pl .blank { width: 44px; height: 9px; border-radius: 4px; background: rgba(0,0,0,.25); margin-top: 3px; }
@@ -306,11 +309,13 @@ p { margin: 0; }
 .podium .p:first-child { background: var(--chalk); color: var(--pitch); }
 .podium .p b { font-family: var(--display); font-weight: 800; font-size: 1.5rem; }
 
-/* ---------------- 501 ---------------- */
+/* ---------------- Scoreboards ---------------- */
 .topic { font-family: var(--display); font-weight: 800; font-size: 1.9rem; line-height: 1; }
 .boards { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 10px; }
 .board { border-radius: var(--r-lg); padding: 14px 16px; background: rgba(0,0,0,.2); border: 2px solid transparent; }
 .board.turn { border-color: var(--flag); }
+.board.p1 .pts { color: #8EC5FF; }
+.board.p0 .pts { color: var(--flag); }
 .board .who { font-weight: 700; font-size: .95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .board .pts { font-family: var(--display); font-weight: 900; font-size: 4.2rem; line-height: .9; margin-top: 4px; }
 .board .pts.out { color: var(--flag); }
@@ -319,6 +324,45 @@ p { margin: 0; }
 .log li { display: flex; justify-content: space-between; gap: 10px; padding: 9px 12px; border-radius: 10px; background: rgba(0,0,0,.14); }
 .log li .v { font-weight: 800; white-space: nowrap; }
 .log li.bad .v { color: var(--miss); }
+
+/* ---------------- FWORDLE ---------------- */
+:root { --fw-green: #2FB36A; --fw-yellow: #F5B82E; --fw-grey: #3A4A44; }
+.fw-head { display: flex; justify-content: space-between; align-items: center; }
+.fw-board { display: grid; gap: 7px; justify-content: center; }
+.fw-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 7px; }
+.fw-tile {
+  width: min(15vw, 60px); height: min(15vw, 60px);
+  display: grid; place-items: center;
+  border: 2px solid var(--line); border-radius: 8px;
+  font-family: var(--display); font-weight: 900; font-size: 2rem; line-height: 1;
+  text-transform: uppercase; background: rgba(0,0,0,.12);
+}
+.fw-tile.filled { border-color: var(--chalk-2); animation: fw-pop .1s; }
+.fw-tile.correct { background: var(--fw-green); border-color: var(--fw-green); color: #06200F; }
+.fw-tile.present { background: var(--fw-yellow); border-color: var(--fw-yellow); color: #2B1E00; }
+.fw-tile.absent { background: var(--fw-grey); border-color: var(--fw-grey); color: var(--chalk-2); }
+.fw-tile.flip { animation: fw-flip .5s ease-in-out both; }
+.fw-tile.sm { width: 36px; height: 36px; font-size: 1.3rem; border-radius: 6px; }
+.fw-ex { display: flex; gap: 5px; }
+@keyframes fw-flip { 0% { transform: rotateX(0); } 50% { transform: rotateX(90deg); } 100% { transform: rotateX(0); } }
+@keyframes fw-pop { 50% { transform: scale(1.08); } }
+.fw-keys { display: grid; gap: 7px; user-select: none; -webkit-user-select: none; }
+.fw-krow { display: flex; gap: 5px; justify-content: center; }
+.fw-key {
+  flex: 1; max-width: 44px; height: 56px; padding: 0; border: 0; border-radius: 6px;
+  background: rgba(244,247,241,.2); font-weight: 700; font-size: 1rem; touch-action: manipulation;
+}
+.fw-key.wide { flex: 1.5; max-width: 66px; font-size: .8rem; }
+.fw-key:active { transform: translateY(1px); }
+.fw-key.correct { background: var(--fw-green); color: #06200F; }
+.fw-key.present { background: var(--fw-yellow); color: #2B1E00; }
+.fw-key.absent { background: var(--fw-grey); color: var(--chalk-3); }
+.fw-stats { display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; }
+.fw-stats b { display: block; font-family: var(--display); font-weight: 900; font-size: 2.2rem; line-height: 1; }
+.fw-stats span { font-size: .75rem; color: var(--chalk-2); }
+.fw-bar { display: flex; align-items: center; gap: 8px; font-size: .85rem; font-weight: 700; }
+.fw-bar i { font-style: normal; text-align: right; padding: 2px 8px; border-radius: 4px; background: rgba(0,0,0,.3); }
+.fw-bar i.on { background: var(--fw-green); color: #06200F; }
 
 /* ---------------- Imposter ---------------- */
 .card-reveal { text-align: center; padding: 34px 20px; border-radius: var(--r-lg); background: var(--chalk); color: var(--pitch); }

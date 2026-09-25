@@ -40,7 +40,7 @@
   };
 
   // ---------- Data ----------
-  const FILES = ["rbmotd", "gts11", "quiz", "f501", "imposter"];
+  const FILES = ["rbmotd", "gts11", "quiz", "fwordle", "imposter"];
   App.loadData = async () => {
     const res = await Promise.all(FILES.map(f => fetch(`/static/data/${f}.json`).then(r => r.json())));
     FILES.forEach((f, i) => App.data[f] = res[i]);
@@ -48,7 +48,6 @@
     const set = new Set();
     App.data.rbmotd.players.forEach(p => set.add(p.name));
     App.data.gts11.matches.forEach(m => [...m.homeXI, ...m.awayXI].flat().forEach(n => set.add(n)));
-    App.data.f501.topics.forEach(t => t.entries.forEach(e => set.add(e.name)));
     App.data.imposter.players.forEach(p => set.add(p.name));
     App.directory = [...set].sort((a, b) => a.localeCompare(b));
   };
@@ -220,7 +219,7 @@
     rbmotd: b => App.games.rbmotd.mount(b),
     gts11: b => App.games.gts11.mount(b),
     quiz: b => App.games.quiz.mount(b),
-    "501": b => App.games.f501.mount(b),
+    fwordle: b => App.games.fwordle.mount(b),
     imposter: b => App.games.imposter.mount(b)
   };
   App.onLeave = fn => { App.cleanup = fn; };
@@ -234,9 +233,9 @@
 
   // ---------- Homepage ----------
   const GAMES = [
-    { hash: "gts11", name: "Guess the XI", desc: "One line-up is on the pitch. Name the other eleven.", modes: "Solo, 1v1 pass the phone" },
+    { hash: "fwordle", name: "FWORDLE", desc: "Football Wordle. Guess the surname in six tries.", modes: "Daily, practice" },
+    { hash: "gts11", name: "Guess the XI", desc: "One line-up is on the pitch. Name the other eleven.", modes: "Solo, 2-player pass the phone" },
     { hash: "quiz", name: "Pub Quiz", desc: "Ten questions. Faster right answers score more.", modes: "Solo, pass the phone" },
-    { hash: "501", name: "Football 501", desc: "Darts rules. Name players, subtract their numbers, check out.", modes: "Solo, pass the phone" },
     { hash: "imposter", name: "Imposter", desc: "Everyone gets the same player except the imposter.", modes: "Pass the phone, 3+ players" }
   ];
 

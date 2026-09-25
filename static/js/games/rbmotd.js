@@ -43,12 +43,15 @@
   }
 
   function practice(body) {
-    let queue = shuffle(App.data.rbmotd.players);
+    // Only players with a photo are used; before photos are downloaded, fall back to everyone.
+    const withPhotos = App.data.rbmotd.players.filter(p => p.image);
+    const pool = withPhotos.length ? withPhotos : App.data.rbmotd.players;
+    let queue = shuffle(pool);
     let session = 0, played = 0, timer = null;
     App.onLeave(() => clearInterval(timer));
 
     const next = () => {
-      if (!queue.length) queue = shuffle(App.data.rbmotd.players);
+      if (!queue.length) queue = shuffle(pool);
       round(queue.pop());
     };
 
@@ -67,7 +70,7 @@
             <div class="small"><span class="muted">Worth</span> <b data-worth>1,000</b> <span class="muted">points</span></div>
           </div>
         </div>
-        ${p.image && p.credit ? `<p class="credit">${esc(p.credit)}</p>` : ""}
+        ${p.image && p.credit ? `<p class="credit">${esc(p.credit)}${p.source ? ` <a href="${esc(p.source)}" target="_blank" rel="noopener">Source</a>` : ""}</p>` : ""}
         <div class="field">
           <input class="input" data-in placeholder="Start typing a player…" aria-label="Your guess">
         </div>
@@ -117,6 +120,7 @@
         App.render(body, html`
           <div class="panel stack">
             <div class="muted">${won ? `Got him in ${clock(secs)}${guesses > 1 ? `, ${guesses} guesses` : ""}` : "It was"}</div>
+            ${p.image ? `<img class="reveal-photo" src="${esc(p.image)}" alt="${esc(p.name)}">` : ""}
             <div class="reveal-name">${esc(p.name)}</div>
             <div class="small muted">${esc(p.nationality)} ${esc(p.position.toLowerCase())}</div>
             <div class="small">${esc(p.clubs.join(", "))}</div>

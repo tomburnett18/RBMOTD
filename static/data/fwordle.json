@@ -1,0 +1,576 @@
+{
+ "answers": [
+  {
+   "word": "KEANE",
+   "players": "Roy Keane, Robbie Keane"
+  },
+  {
+   "word": "TERRY",
+   "players": "John Terry"
+  },
+  {
+   "word": "GIGGS",
+   "players": "Ryan Giggs"
+  },
+  {
+   "word": "HENRY",
+   "players": "Thierry Henry"
+  },
+  {
+   "word": "PIRES",
+   "players": "Robert Pirès"
+  },
+  {
+   "word": "ADAMS",
+   "players": "Tony Adams"
+  },
+  {
+   "word": "KANTE",
+   "players": "N'Golo Kanté"
+  },
+  {
+   "word": "SALAH",
+   "players": "Mohamed Salah"
+  },
+  {
+   "word": "SILVA",
+   "players": "David Silva, Bernardo Silva, Thiago Silva"
+  },
+  {
+   "word": "COSTA",
+   "players": "Diego Costa"
+  },
+  {
+   "word": "MOUNT",
+   "players": "Mason Mount"
+  },
+  {
+   "word": "JAMES",
+   "players": "David James, Reece James"
+  },
+  {
+   "word": "BARRY",
+   "players": "Gareth Barry"
+  },
+  {
+   "word": "SPEED",
+   "players": "Gary Speed"
+  },
+  {
+   "word": "SMITH",
+   "players": "Alan Smith"
+  },
+  {
+   "word": "JONES",
+   "players": "Phil Jones"
+  },
+  {
+   "word": "EVANS",
+   "players": "Jonny Evans"
+  },
+  {
+   "word": "VIDIC",
+   "players": "Nemanja Vidić"
+  },
+  {
+   "word": "TEVEZ",
+   "players": "Carlos Tevez"
+  },
+  {
+   "word": "TOURE",
+   "players": "Yaya Touré, Kolo Touré"
+  },
+  {
+   "word": "DZEKO",
+   "players": "Edin Džeko"
+  },
+  {
+   "word": "NASRI",
+   "players": "Samir Nasri"
+  },
+  {
+   "word": "NAVAS",
+   "players": "Jesús Navas"
+  },
+  {
+   "word": "RODRI",
+   "players": "Rodri"
+  },
+  {
+   "word": "FODEN",
+   "players": "Phil Foden"
+  },
+  {
+   "word": "VARDY",
+   "players": "Jamie Vardy"
+  },
+  {
+   "word": "NDIDI",
+   "players": "Wilfred Ndidi"
+  },
+  {
+   "word": "WHITE",
+   "players": "Ben White"
+  },
+  {
+   "word": "JESUS",
+   "players": "Gabriel Jesus"
+  },
+  {
+   "word": "EBOUE",
+   "players": "Emmanuel Eboué"
+  },
+  {
+   "word": "KEOWN",
+   "players": "Martin Keown"
+  },
+  {
+   "word": "XHAKA",
+   "players": "Granit Xhaka"
+  },
+  {
+   "word": "SAGNA",
+   "players": "Bacary Sagna"
+  },
+  {
+   "word": "DIABY",
+   "players": "Abou Diaby"
+  },
+  {
+   "word": "RIISE",
+   "players": "John Arne Riise"
+  },
+  {
+   "word": "REINA",
+   "players": "Pepe Reina"
+  },
+  {
+   "word": "AGGER",
+   "players": "Daniel Agger"
+  },
+  {
+   "word": "LUCAS",
+   "players": "Lucas Leiva, Lucas Moura"
+  },
+  {
+   "word": "KEITA",
+   "players": "Naby Keïta"
+  },
+  {
+   "word": "MATIP",
+   "players": "Joël Matip"
+  },
+  {
+   "word": "ORIGI",
+   "players": "Divock Origi"
+  },
+  {
+   "word": "NUNEZ",
+   "players": "Darwin Núñez"
+  },
+  {
+   "word": "GAKPO",
+   "players": "Cody Gakpo"
+  },
+  {
+   "word": "GOMEZ",
+   "players": "Joe Gomez"
+  },
+  {
+   "word": "BAROS",
+   "players": "Milan Baroš"
+  },
+  {
+   "word": "CISSE",
+   "players": "Djibril Cissé, Papiss Cissé"
+  },
+  {
+   "word": "DIOUF",
+   "players": "El Hadji Diouf"
+  },
+  {
+   "word": "BABEL",
+   "players": "Ryan Babel"
+  },
+  {
+   "word": "YORKE",
+   "players": "Dwight Yorke"
+  },
+  {
+   "word": "IRWIN",
+   "players": "Denis Irwin"
+  },
+  {
+   "word": "BLANC",
+   "players": "Laurent Blanc"
+  },
+  {
+   "word": "VERON",
+   "players": "Juan Sebastián Verón"
+  },
+  {
+   "word": "BROWN",
+   "players": "Wes Brown"
+  },
+  {
+   "word": "YOUNG",
+   "players": "Ashley Young"
+  },
+  {
+   "word": "POGBA",
+   "players": "Paul Pogba"
+  },
+  {
+   "word": "ONANA",
+   "players": "André Onana"
+  },
+  {
+   "word": "DALOT",
+   "players": "Diogo Dalot"
+  },
+  {
+   "word": "MIKEL",
+   "players": "John Obi Mikel"
+  },
+  {
+   "word": "KALOU",
+   "players": "Salomon Kalou"
+  },
+  {
+   "word": "MOSES",
+   "players": "Victor Moses"
+  },
+  {
+   "word": "MENDY",
+   "players": "Édouard Mendy, Benjamin Mendy"
+  },
+  {
+   "word": "POYET",
+   "players": "Gus Poyet"
+  },
+  {
+   "word": "DEFOE",
+   "players": "Jermain Defoe"
+  },
+  {
+   "word": "WINKS",
+   "players": "Harry Winks"
+  },
+  {
+   "word": "OSMAN",
+   "players": "Leon Osman"
+  },
+  {
+   "word": "GIVEN",
+   "players": "Shay Given"
+  },
+  {
+   "word": "BATTY",
+   "players": "David Batty"
+  },
+  {
+   "word": "MILLS",
+   "players": "Danny Mills"
+  },
+  {
+   "word": "CAREW",
+   "players": "John Carew"
+  },
+  {
+   "word": "NOLAN",
+   "players": "Kevin Nolan"
+  },
+  {
+   "word": "CAMPO",
+   "players": "Iván Campo"
+  },
+  {
+   "word": "TUGAY",
+   "players": "Tugay"
+  },
+  {
+   "word": "SAMBA",
+   "players": "Christopher Samba"
+  },
+  {
+   "word": "NOBLE",
+   "players": "Mark Noble"
+  },
+  {
+   "word": "PAYET",
+   "players": "Dimitri Payet"
+  },
+  {
+   "word": "BOWEN",
+   "players": "Jarrod Bowen"
+  },
+  {
+   "word": "DUNNE",
+   "players": "Richard Dunne"
+  },
+  {
+   "word": "ELANO",
+   "players": "Elano"
+  },
+  {
+   "word": "GREEN",
+   "players": "Robert Green"
+  },
+  {
+   "word": "HARTE",
+   "players": "Ian Harte"
+  },
+  {
+   "word": "QUINN",
+   "players": "Niall Quinn"
+  },
+  {
+   "word": "DOYLE",
+   "players": "Kevin Doyle"
+  },
+  {
+   "word": "DELAP",
+   "players": "Rory Delap"
+  },
+  {
+   "word": "UPSON",
+   "players": "Matthew Upson"
+  },
+  {
+   "word": "TIOTE",
+   "players": "Cheick Tioté"
+  },
+  {
+   "word": "PEREZ",
+   "players": "Ayoze Pérez"
+  },
+  {
+   "word": "SAKHO",
+   "players": "Mamadou Sakho, Diafra Sakho"
+  },
+  {
+   "word": "DIAME",
+   "players": "Mohamed Diamé"
+  },
+  {
+   "word": "MESSI",
+   "players": "Lionel Messi"
+  },
+  {
+   "word": "PIRLO",
+   "players": "Andrea Pirlo"
+  },
+  {
+   "word": "TOTTI",
+   "players": "Francesco Totti"
+  },
+  {
+   "word": "KROOS",
+   "players": "Toni Kroos"
+  },
+  {
+   "word": "NEUER",
+   "players": "Manuel Neuer"
+  },
+  {
+   "word": "KLOSE",
+   "players": "Miroslav Klose"
+  },
+  {
+   "word": "PUYOL",
+   "players": "Carles Puyol"
+  },
+  {
+   "word": "VILLA",
+   "players": "David Villa"
+  },
+  {
+   "word": "RAMOS",
+   "players": "Sergio Ramos"
+  },
+  {
+   "word": "PIQUE",
+   "players": "Gerard Piqué"
+  },
+  {
+   "word": "NESTA",
+   "players": "Alessandro Nesta"
+  },
+  {
+   "word": "ALVES",
+   "players": "Dani Alves"
+  },
+  {
+   "word": "GOTZE",
+   "players": "Mario Götze"
+  },
+  {
+   "word": "PETIT",
+   "players": "Emmanuel Petit"
+  },
+  {
+   "word": "SUKER",
+   "players": "Davor Šuker"
+  },
+  {
+   "word": "PEDRI",
+   "players": "Pedri"
+  }
+ ],
+ "valid": [
+  "ADAMS",
+  "AGGER",
+  "ALLAN",
+  "ALLEN",
+  "ALVES",
+  "ANGEL",
+  "ASPAS",
+  "BABEL",
+  "BAMBA",
+  "BAROS",
+  "BARRY",
+  "BATTY",
+  "BLANC",
+  "BOUMA",
+  "BOWEN",
+  "BOYCE",
+  "BROWN",
+  "CAMPO",
+  "CAREW",
+  "CISSE",
+  "COADY",
+  "COSTA",
+  "CYGAN",
+  "DALOT",
+  "DAVIS",
+  "DEFOE",
+  "DEGEN",
+  "DELAP",
+  "DERRY",
+  "DIABY",
+  "DIAME",
+  "DIOUF",
+  "DIXON",
+  "DOYLE",
+  "DUDEK",
+  "DUNGA",
+  "DUNNE",
+  "DZEKO",
+  "EBOUE",
+  "ELANO",
+  "EUELL",
+  "EVANS",
+  "FABIO",
+  "FELIX",
+  "FODEN",
+  "GAKPO",
+  "GARAY",
+  "GHALY",
+  "GIGGS",
+  "GIVEN",
+  "GOMEZ",
+  "GOMIS",
+  "GOTZE",
+  "GREEN",
+  "GUEYE",
+  "HARTE",
+  "HENRY",
+  "HOWEY",
+  "IRWIN",
+  "JAIDI",
+  "JAMES",
+  "JESUS",
+  "JONES",
+  "KALOU",
+  "KANTE",
+  "KEANE",
+  "KEITA",
+  "KELLY",
+  "KENNY",
+  "KEOWN",
+  "KLOSE",
+  "KROOS",
+  "LEIVA",
+  "LEWIS",
+  "LINKE",
+  "LUCAS",
+  "LUCIO",
+  "LUQUE",
+  "MATIP",
+  "MEITE",
+  "MENDY",
+  "MESSI",
+  "MICHU",
+  "MIKEL",
+  "MILLS",
+  "MOSES",
+  "MOUNT",
+  "NASRI",
+  "NAVAS",
+  "NDIDI",
+  "NESTA",
+  "NEUER",
+  "NEVES",
+  "NOBLE",
+  "NOLAN",
+  "NUNEZ",
+  "OLISE",
+  "ONANA",
+  "ONEIL",
+  "ORIGI",
+  "OSHEA",
+  "OSMAN",
+  "PAYET",
+  "PEDRI",
+  "PEDRO",
+  "PEREZ",
+  "PETIT",
+  "PIQUE",
+  "PIRES",
+  "PIRLO",
+  "POGBA",
+  "POYET",
+  "PUYOL",
+  "QUINN",
+  "RAMOS",
+  "REBIC",
+  "REINA",
+  "RIERA",
+  "RIISE",
+  "RODRI",
+  "SAGNA",
+  "SAKHO",
+  "SALAH",
+  "SAMBA",
+  "SAVIC",
+  "SESKO",
+  "SILVA",
+  "SMITH",
+  "SPEED",
+  "SUKER",
+  "TAIWO",
+  "TERRY",
+  "TEVEZ",
+  "TIOTE",
+  "TOSIC",
+  "TOSUN",
+  "TOTTI",
+  "TOURE",
+  "TUDOR",
+  "TUGAY",
+  "UPSON",
+  "UTAKA",
+  "VARDY",
+  "VERON",
+  "VIANA",
+  "VIDIC",
+  "VILLA",
+  "WHITE",
+  "WINKS",
+  "WIRTZ",
+  "XHAKA",
+  "YAMAL",
+  "YORKE",
+  "YOUNG"
+ ]
+}

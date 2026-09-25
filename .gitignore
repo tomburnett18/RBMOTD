@@ -4,3 +4,4 @@ __pycache__/
 venv/
 instance/
 .env
+tools/photo_report.html

@@ -1,4 +1,5 @@
-/* GTS11 – Guess the Starting XI. Solo (easy/medium/hard) and 1v1 pass the phone. */
+/* GTS11 – Guess the Starting XI. Solo (easy/medium/hard) and 2-player pass the phone,
+   where both players guess the same XI in turns: keep going while you're right, a miss passes it over. */
 (function () {
   "use strict";
   const { esc, html, norm, shuffle, surname } = App;
@@ -21,7 +22,7 @@
   // A board = one match with one side hidden.
   function newBoard(match) {
     const hide = Math.random() < .5 ? "home" : "away";
-    return { match, hide, got: new Set(), gaveUp: false };
+    return { match, hide, got: new Map(), gaveUp: false }; // got: player name -> who guessed him
   }
   const hiddenXI = b => (b.hide === "home" ? b.match.homeXI : b.match.awayXI);
   const shownXI = b => (b.hide === "home" ? b.match.awayXI : b.match.homeXI);
@@ -30,7 +31,7 @@
   const score = b => b.got.size;
 
   // Returns {ok, name, msg}
-  function guess(b, text) {
+  function guess(b, text, who = 0) {
     const players = hiddenXI(b).flat();
     const g = norm(text);
     const exact = players.filter(n => norm(n) === g);
@@ -39,7 +40,7 @@
     const fresh = cands.filter(n => !b.got.has(n));
     if (!fresh.length) return { ok: false, repeat: true, msg: "Already got him" };
     if (fresh.length > 1) return { ok: false, repeat: true, msg: "More than one fits. Use their full name." };
-    b.got.add(fresh[0]);
+    b.got.set(fresh[0], who);
     return { ok: true, name: fresh[0] };
   }
 
@@ -57,7 +58,7 @@
     const row = (r, hidden) => `<div class="line-row">${r.map(n => {
       const got = b.got.has(n);
       const show = !hidden || got || b.gaveUp;
-      const cls = hidden ? (got ? "got" : b.gaveUp ? "gaveup" : "") : "";
+      const cls = hidden ? (got ? `got p${b.got.get(n)}` : b.gaveUp ? "gaveup" : "") : "";
       return `<div class="pl ${cls}"><div class="shirt">${show ? initial(n) : "?"}</div>${show ? `<div class="nm" title="${esc(n)}">${esc(surname(n))}</div>` : `<div class="blank"></div>`}</div>`;
     }).join("")}</div>`;
     return html`
@@ -77,7 +78,7 @@
     const { body } = App.screen("Guess the XI");
     App.modePicker(body, [
       { title: "Solo", desc: "Play as many matches as you like.", run: () => soloSetup(body) },
-      { title: "1v1 pass the phone", desc: "Two matches, one guess each per turn. First to a full XI wins.", run: () => duelSetup(body) }
+      { title: "2-player pass the phone", desc: "Same match for both. Keep guessing until you miss. Most of the XI wins.", run: () => duelSetup(body) }
     ]);
   }
 
@@ -118,7 +119,7 @@
     draw();
   }
 
-  // ---------------- 1v1 ----------------
+  // ---------------- 2 players, one match ----------------
   function duelSetup(body) {
     let diff = "easy";
     App.nameSetup(body, {
@@ -128,71 +129,68 @@
     App.seg(body.querySelector("[data-diff]"), DIFFS, diff, v => diff = v);
   }
 
-  async function duel(body, names, diff) {
-    const m1 = drawMatch(diff);
-    const m2 = drawMatch(diff, [m1.id]);
-    const boards = [newBoard(m1), newBoard(m2)];
+  function duel(body, names, diff) {
+    const b = newBoard(drawMatch(diff));
     let turn = Math.random() < .5 ? 0 : 1;
     let over = false;
+    const pts = i => [...b.got.values()].filter(w => w === i).length;
 
-    App.render(body, html`<div class="panel stack-sm center">
-      <h3>${esc(names[turn])} goes first</h3>
-      <p class="muted">Each of you gets a different match. One guess per turn, right or wrong. First to fill their XI wins.</p>
-    </div><button class="btn block flag" data-go>Start</button>`);
-    await new Promise(r => body.querySelector("[data-go]").onclick = r);
+    function draw(flash) {
+      const left = 11 - b.got.size;
+      App.render(body, html`
+        ${over ? resultHTML() : ""}
+        <div class="boards">
+          ${names.map((n, i) => `<div class="board p${i} ${i === turn && !over ? "turn" : ""}">
+            <div class="who">${esc(n)}</div><div class="pts">${pts(i)}</div>
+            <div class="darts">${i === turn && !over ? "Guessing" : "&nbsp;"}</div></div>`).join("")}
+        </div>
+        ${headHTML(b.match)}
+        ${flash ? `<div class="panel center pop"><div class="verdict ${flash.good ? "hit" : "miss"}">${esc(flash.big)}</div><p class="muted small">${esc(flash.small)}</p></div>` : ""}
+        ${over ? "" : `<p class="small"><b>${esc(names[turn])}</b> <span class="muted">to guess. ${left} left to find.</span></p>
+          <div class="field"><input class="input" data-in placeholder="Name a ${esc(hiddenTeam(b))} starter…" aria-label="Your guess"></div>
+          <button class="btn block" data-guess>Guess</button>`}
+        ${pitchHTML(b)}
+        ${over ? `<div class="row"><button class="btn grow flag" data-again>Rematch</button><button class="btn ghost" data-menu>Menu</button></div>`
+               : `<button class="btn ghost block sm" data-end>End game and reveal</button>`}`);
+      if (over) {
+        body.querySelector("[data-again]").onclick = () => duel(body, names, diff);
+        body.querySelector("[data-menu]").onclick = mount;
+        return;
+      }
+      body.querySelector("[data-end]").onclick = finish;
+      const input = body.querySelector("[data-in]");
+      const ac = App.autocomplete(input, { list: () => App.directory, onSubmit: v => {
+        const r = guess(b, v, turn);
+        if (r.repeat) { App.toast(r.msg, "miss"); return; } // doesn't cost the turn
+        if (r.ok) {
+          if (b.got.size === 11) return finish();
+          draw({ good: true, big: surname(r.name), small: `Point to ${names[turn]}. Go again.` });
+        } else {
+          turn = 1 - turn;
+          draw({ good: false, big: "Miss", small: `${r.msg}. Over to ${names[turn]}.` });
+        }
+        body.querySelector("[data-in]")?.focus();
+      } });
+      body.querySelector("[data-guess]").onclick = () => ac.submit();
+      setTimeout(() => input.focus(), 50);
+    }
 
-    const scoreLine = () => `${esc(names[0])} ${score(boards[0])}, ${esc(names[1])} ${score(boards[1])}`;
+    function resultHTML() {
+      const [a, c] = [pts(0), pts(1)];
+      const title = a === c ? "It's a draw" : `${names[a > c ? 0 : 1]} wins`;
+      return html`<div class="panel chalk center stack-sm pop">
+        <div class="verdict">${esc(title)}</div>
+        <p>${esc(names[0])} ${a}/11, ${esc(names[1])} ${c}/11</p></div>`;
+    }
 
-    async function playTurn() {
-      await App.passTo(names[turn], "Only you should see your pitch.");
-      const b = boards[turn];
-      let guessed = false;
-      const draw = (result) => {
-        App.render(body, html`
-          <div class="row"><h3 class="grow">${esc(names[turn])}'s turn</h3><span class="muted small">${scoreLine()}</span></div>
-          ${headHTML(b.match)}
-          <div class="tally"><span class="muted">Your XI</span><span class="big">${score(b)}<span class="muted" style="font-size:.5em">/11</span></span></div>
-          ${guessed ? `<div class="panel center"><div class="verdict ${result.ok ? "hit" : "miss"}">${result.ok ? esc(result.name) : "Miss"}</div>${result.ok ? "" : `<p class="muted small">${esc(result.msg)}</p>`}</div>
-            <button class="btn block flag" data-pass>Pass to ${esc(names[1 - turn])}</button>`
-          : `<div class="field"><input class="input" data-in placeholder="Name a ${esc(hiddenTeam(b))} starter…" aria-label="Your guess"></div>
-            <button class="btn block" data-guess>Guess</button>`}
-          ${pitchHTML(b)}
-          <button class="btn ghost block sm" data-end>End game and reveal</button>`);
-        body.querySelector("[data-end]").onclick = () => finish(null);
-        if (guessed) { body.querySelector("[data-pass]").onclick = () => { turn = 1 - turn; playTurn(); }; return; }
-        const input = body.querySelector("[data-in]");
-        const ac = App.autocomplete(input, { list: () => App.directory, onSubmit: v => {
-          const r = guess(b, v);
-          if (r.repeat) { App.toast(r.msg, "miss"); return; } // doesn't use up the turn
-          guessed = true;
-          if (score(b) === 11) return finish(turn);
-          draw(r);
-        } });
-        body.querySelector("[data-guess]").onclick = () => ac.submit();
-        setTimeout(() => input.focus(), 50);
-      };
+    function finish() {
+      if (over) return;
+      over = true;
+      b.gaveUp = true;
       draw();
     }
 
-    function finish(winner) {
-      if (over) return; over = true;
-      boards.forEach(b => b.gaveUp = true);
-      if (winner === null) {
-        const [a, c] = boards.map(score);
-        winner = a === c ? -1 : (a > c ? 0 : 1);
-      }
-      App.render(body, html`
-        <div class="panel chalk center stack-sm">
-          <div class="verdict">${winner === -1 ? "It's a draw" : `${esc(names[winner])} wins`}</div>
-          <p>${scoreLine()}</p>
-        </div>
-        ${boards.map((b, i) => `<div class="stack-sm"><h3>${esc(names[i])}</h3>${headHTML(b.match)}${pitchHTML(b)}</div>`).join("")}
-        <div class="row"><button class="btn grow flag" data-again>Rematch</button><button class="btn ghost" data-menu>Menu</button></div>`);
-      body.querySelector("[data-again]").onclick = () => duel(body, names, diff);
-      body.querySelector("[data-menu]").onclick = mount;
-    }
-
-    playTurn();
+    draw();
   }
 
   App.games.gts11 = { mount };
