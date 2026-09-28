@@ -1,0 +1,795 @@
+{
+ "_note": "Obscure-ish Premier League players, 2000s onwards. Add a Wikimedia Commons image URL + credit to show a photo instead of the silhouette.",
+ "players": [
+  {
+   "id": 1,
+   "name": "Titus Bramble",
+   "aka": [],
+   "nationality": "English",
+   "position": "Centre-back",
+   "clubs": [
+    "Ipswich Town",
+    "Newcastle United",
+    "Wigan Athletic",
+    "Sunderland"
+   ],
+   "fact": "Joined Newcastle from Ipswich in 2002",
+   "image": "/static/img/rbmotd/titus-bramble.jpg",
+   "credit": "Photo: Rach from Tadcaster, York, England, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Titus_Bramble_2011.jpg"
+  },
+  {
+   "id": 2,
+   "name": "Mikael Forssell",
+   "aka": [],
+   "nationality": "Finnish",
+   "position": "Striker",
+   "clubs": [
+    "Chelsea",
+    "Birmingham City"
+   ],
+   "fact": "Scored 17 league goals on loan at Birmingham in 2003–04",
+   "image": "/static/img/rbmotd/mikael-forssell.jpg",
+   "credit": "Photo: Struway, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Forssell_signs_autographs_Weiden.jpg"
+  },
+  {
+   "id": 3,
+   "name": "Marcus Bent",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Blackburn Rovers",
+    "Ipswich Town",
+    "Leicester City",
+    "Everton",
+    "Charlton Athletic",
+    "Wigan Athletic"
+   ],
+   "fact": "Played for more than a dozen English clubs",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 4,
+   "name": "Benjani",
+   "aka": [],
+   "nationality": "Zimbabwean",
+   "position": "Striker",
+   "clubs": [
+    "Portsmouth",
+    "Manchester City",
+    "Blackburn Rovers",
+    "Sunderland"
+   ],
+   "fact": "His deadline-day move to Man City in January 2008 nearly collapsed",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 5,
+   "name": "Djimi Traoré",
+   "aka": [],
+   "nationality": "Malian",
+   "position": "Left-back",
+   "clubs": [
+    "Liverpool",
+    "Charlton Athletic",
+    "Portsmouth"
+   ],
+   "fact": "Started the 2005 Champions League final in Istanbul",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 6,
+   "name": "Paul Konchesky",
+   "aka": [],
+   "nationality": "English",
+   "position": "Left-back",
+   "clubs": [
+    "Charlton Athletic",
+    "West Ham United",
+    "Fulham",
+    "Liverpool"
+   ],
+   "fact": "Scored a looping goal for West Ham in the 2006 FA Cup final",
+   "image": "/static/img/rbmotd/paul-konchesky.jpg",
+   "credit": "Photo: Ben Sutherland from Crystal Palace, London, UK, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Konchesky.jpg"
+  },
+  {
+   "id": 7,
+   "name": "Julio Arca",
+   "aka": [],
+   "nationality": "Argentine",
+   "position": "Midfielder",
+   "clubs": [
+    "Sunderland",
+    "Middlesbrough"
+   ],
+   "fact": "Won the Under-20 World Cup with Argentina in 2001",
+   "image": "/static/img/rbmotd/julio-arca.jpg",
+   "credit": "Photo: vagueonthehow from Tadcaster, York, England, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Julio_Arca_2013_2.jpg"
+  },
+  {
+   "id": 8,
+   "name": "Tugay",
+   "aka": [],
+   "nationality": "Turkish",
+   "position": "Midfielder",
+   "clubs": [
+    "Blackburn Rovers"
+   ],
+   "fact": "Was part of Turkey's squad that finished third at the 2002 World Cup",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 9,
+   "name": "Dean Ashton",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Norwich City",
+    "West Ham United"
+   ],
+   "fact": "Broke his ankle in England training in 2006 and retired young",
+   "image": "/static/img/rbmotd/dean-ashton.jpg",
+   "credit": "Photo: Keven Law, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Dean_ashton_(cropped).jpg"
+  },
+  {
+   "id": 10,
+   "name": "Mido",
+   "aka": [],
+   "nationality": "Egyptian",
+   "position": "Striker",
+   "clubs": [
+    "Tottenham Hotspur",
+    "Middlesbrough",
+    "Wigan Athletic",
+    "West Ham United"
+   ],
+   "fact": "Later went into management in Egypt",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 11,
+   "name": "Afonso Alves",
+   "aka": [],
+   "nationality": "Brazilian",
+   "position": "Striker",
+   "clubs": [
+    "Middlesbrough"
+   ],
+   "fact": "Joined Middlesbrough in 2008 for a club-record fee after scoring freely at Heerenveen",
+   "image": "/static/img/rbmotd/afonso-alves.jpg",
+   "credit": "Photo: Onno Falkena from Ljouwert, Fryslân, NetherlandsAlso by t…, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Afonso_Alves_1.jpg"
+  },
+  {
+   "id": 12,
+   "name": "Roque Santa Cruz",
+   "aka": [],
+   "nationality": "Paraguayan",
+   "position": "Striker",
+   "clubs": [
+    "Blackburn Rovers",
+    "Manchester City"
+   ],
+   "fact": "Scored 19 league goals in his first season at Blackburn",
+   "image": "/static/img/rbmotd/roque-santa-cruz.jpg",
+   "credit": "Photo: Mundo arte Paraguay, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Roque_Santa_Cruz_2025_(cropped).jpg"
+  },
+  {
+   "id": 13,
+   "name": "Kenwyne Jones",
+   "aka": [],
+   "nationality": "Trinidadian",
+   "position": "Striker",
+   "clubs": [
+    "Southampton",
+    "Sunderland",
+    "Stoke City"
+   ],
+   "fact": "Moved from Southampton to Sunderland in 2007",
+   "image": "/static/img/rbmotd/kenwyne-jones.jpg",
+   "credit": "Photo: Jon Candy, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Kenwyne_Jones,_Aly_Cissokho_2014.jpg"
+  },
+  {
+   "id": 14,
+   "name": "Marlon Harewood",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "West Ham United",
+    "Aston Villa"
+   ],
+   "fact": "Scored the winner for West Ham in the 2006 FA Cup semi-final",
+   "image": "/static/img/rbmotd/marlon-harewood.jpg",
+   "credit": "Photo: dalli58, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Marlon_Harewood.JPG"
+  },
+  {
+   "id": 15,
+   "name": "Gary O'Neil",
+   "aka": [],
+   "nationality": "English",
+   "position": "Midfielder",
+   "clubs": [
+    "Portsmouth",
+    "Middlesbrough",
+    "West Ham United"
+   ],
+   "fact": "Went on to manage Bournemouth and Wolves",
+   "image": "/static/img/rbmotd/gary-o-neil.jpg",
+   "credit": "Photo: COYB123, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:GON_220826.jpg"
+  },
+  {
+   "id": 16,
+   "name": "Stephen Ireland",
+   "aka": [],
+   "nationality": "Irish",
+   "position": "Midfielder",
+   "clubs": [
+    "Manchester City",
+    "Aston Villa",
+    "Newcastle United",
+    "Stoke City"
+   ],
+   "fact": "Was named Man City's player of the year in 2008–09",
+   "image": "/static/img/rbmotd/stephen-ireland.jpg",
+   "credit": "Photo: Alfonso Jimenez, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Stephen_Ireland_2009_(cropped).jpg"
+  },
+  {
+   "id": 17,
+   "name": "Tomasz Radzinski",
+   "aka": [],
+   "nationality": "Canadian",
+   "position": "Striker",
+   "clubs": [
+    "Everton",
+    "Fulham"
+   ],
+   "fact": "Was born in Poland",
+   "image": "/static/img/rbmotd/tomasz-radzinski.jpg",
+   "credit": "Photo: Canadian Soccer Association, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Tomasz_Radzinski_2004.jpg"
+  },
+  {
+   "id": 18,
+   "name": "Heiðar Helguson",
+   "aka": [],
+   "nationality": "Icelandic",
+   "position": "Striker",
+   "clubs": [
+    "Watford",
+    "Fulham",
+    "Bolton Wanderers",
+    "QPR"
+   ],
+   "fact": "Played in the Premier League across three different decades",
+   "image": "/static/img/rbmotd/heiar-helguson.jpg",
+   "credit": "Photo: Jon Candy, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Helguson_Cardiff_Red.jpg"
+  },
+  {
+   "id": 19,
+   "name": "Geremi",
+   "aka": [],
+   "nationality": "Cameroonian",
+   "position": "Midfielder",
+   "clubs": [
+    "Middlesbrough",
+    "Chelsea",
+    "Newcastle United"
+   ],
+   "fact": "Won the Africa Cup of Nations twice",
+   "image": "/static/img/rbmotd/geremi.jpg",
+   "credit": "Photo: Mattythewhite, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Geremi_Njitap_Hull_City_v._Newcastle_United_1_(cropped).png"
+  },
+  {
+   "id": 20,
+   "name": "Pascal Chimbonda",
+   "aka": [],
+   "nationality": "French",
+   "position": "Right-back",
+   "clubs": [
+    "Wigan Athletic",
+    "Tottenham Hotspur",
+    "Sunderland",
+    "Blackburn Rovers"
+   ],
+   "fact": "Made the PFA Team of the Year with Wigan in 2005–06",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 21,
+   "name": "Emanuel Pogatetz",
+   "aka": [],
+   "nationality": "Austrian",
+   "position": "Defender",
+   "clubs": [
+    "Middlesbrough",
+    "West Ham United"
+   ],
+   "fact": "Known for his hard-tackling style at the Riverside",
+   "image": "/static/img/rbmotd/emanuel-pogatetz.jpg",
+   "credit": "Photo: Michael Kranewitter, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Emanuel_Pogatetz_04.JPG"
+  },
+  {
+   "id": 22,
+   "name": "Diomansy Kamara",
+   "aka": [],
+   "nationality": "Senegalese",
+   "position": "Striker",
+   "clubs": [
+    "West Bromwich Albion",
+    "Fulham"
+   ],
+   "fact": "Helped Fulham pull off their great escape in 2008",
+   "image": "/static/img/rbmotd/diomansy-kamara.jpg",
+   "credit": "Photo: Eski26 at German Wikipedia, Public domain, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Kamara26.jpg"
+  },
+  {
+   "id": 23,
+   "name": "Lomana LuaLua",
+   "aka": [],
+   "nationality": "Congolese",
+   "position": "Forward",
+   "clubs": [
+    "Newcastle United",
+    "Portsmouth"
+   ],
+   "fact": "Famous for his backflip goal celebrations",
+   "image": "/static/img/rbmotd/lomana-lualua.jpg",
+   "credit": "Photo: Ultraslansi, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Lomana_LuaLua%2713.JPG"
+  },
+  {
+   "id": 24,
+   "name": "Amdy Faye",
+   "aka": [],
+   "nationality": "Senegalese",
+   "position": "Midfielder",
+   "clubs": [
+    "Portsmouth",
+    "Newcastle United",
+    "Charlton Athletic",
+    "Stoke City"
+   ],
+   "fact": "Played for Senegal at the 2002 World Cup",
+   "image": "/static/img/rbmotd/amdy-faye.jpg",
+   "credit": "Photo: EchetusXe, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Amdy_Faye.JPG"
+  },
+  {
+   "id": 25,
+   "name": "Jimmy Bullard",
+   "aka": [],
+   "nationality": "English",
+   "position": "Midfielder",
+   "clubs": [
+    "Wigan Athletic",
+    "Fulham",
+    "Hull City"
+   ],
+   "fact": "Recreated his manager's on-pitch team talk as a goal celebration",
+   "image": "/static/img/rbmotd/jimmy-bullard.jpg",
+   "credit": "Photo: Jon Candy from Cardiff, Wales, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Bullard_-_Ipswich.jpg"
+  },
+  {
+   "id": 26,
+   "name": "Charles N'Zogbia",
+   "aka": [],
+   "nationality": "French",
+   "position": "Winger",
+   "clubs": [
+    "Newcastle United",
+    "Wigan Athletic",
+    "Aston Villa"
+   ],
+   "fact": "Came through at Newcastle before starring for Wigan",
+   "image": "/static/img/rbmotd/charles-n-zogbia.jpg",
+   "credit": "Photo: michael.kjaer, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Charles_N%27Zogbia.png"
+  },
+  {
+   "id": 27,
+   "name": "Seol Ki-hyeon",
+   "aka": [],
+   "nationality": "South Korean",
+   "position": "Winger",
+   "clubs": [
+    "Reading",
+    "Fulham"
+   ],
+   "fact": "Played at the 2002 World Cup on home soil",
+   "image": "/static/img/rbmotd/seol-ki-hyeon.jpg",
+   "credit": "Photo: Mikhail Slain, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Seol.JPG"
+  },
+  {
+   "id": 28,
+   "name": "Francis Jeffers",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Everton",
+    "Arsenal",
+    "Charlton Athletic",
+    "Blackburn Rovers"
+   ],
+   "fact": "Scored on his only England appearance",
+   "image": "/static/img/rbmotd/francis-jeffers.jpg",
+   "credit": "Photo: fourthandfifteen, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Ipswich_v_Cardiff_6_May_2007_(494106199).jpg"
+  },
+  {
+   "id": 29,
+   "name": "Michael Chopra",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Newcastle United",
+    "Sunderland"
+   ],
+   "fact": "Came through Newcastle's academy",
+   "image": "/static/img/rbmotd/michael-chopra.jpg",
+   "credit": "Photo: Jon Candy from Cardiff, Wales, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Michael_Chopra_-_2011.jpg"
+  },
+  {
+   "id": 30,
+   "name": "Nathan Ellington",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Wigan Athletic",
+    "West Bromwich Albion"
+   ],
+   "fact": "Nicknamed \"The Duke\"",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 31,
+   "name": "Jermaine Pennant",
+   "aka": [],
+   "nationality": "English",
+   "position": "Winger",
+   "clubs": [
+    "Arsenal",
+    "Birmingham City",
+    "Liverpool",
+    "Stoke City"
+   ],
+   "fact": "Played in the 2007 Champions League final",
+   "image": "/static/img/rbmotd/jermaine-pennant.jpg",
+   "credit": "Photo: Chin Yu Chu, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jermaine_Pennant_-_53690895530_(updated).jpg"
+  },
+  {
+   "id": 32,
+   "name": "Matthew Etherington",
+   "aka": [],
+   "nationality": "English",
+   "position": "Winger",
+   "clubs": [
+    "Tottenham Hotspur",
+    "West Ham United",
+    "Stoke City"
+   ],
+   "fact": "Played in Stoke's 2011 FA Cup final side",
+   "image": "/static/img/rbmotd/matthew-etherington.jpg",
+   "credit": "Photo: Egghead06, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Matt_Etherington_at_the_Boleyn_Ground_2015.jpg"
+  },
+  {
+   "id": 33,
+   "name": "Kevin Kilbane",
+   "aka": [],
+   "nationality": "Irish",
+   "position": "Midfielder",
+   "clubs": [
+    "Sunderland",
+    "Everton",
+    "Wigan Athletic",
+    "Hull City"
+   ],
+   "fact": "Won more than 100 caps for Ireland",
+   "image": "/static/img/rbmotd/kevin-kilbane.jpg",
+   "credit": "Photo: vagueonthehow from England, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Kevin_Kilbane_(13938890939).jpg"
+  },
+  {
+   "id": 34,
+   "name": "Hameur Bouazza",
+   "aka": [],
+   "nationality": "Algerian",
+   "position": "Winger",
+   "clubs": [
+    "Watford",
+    "Fulham"
+   ],
+   "fact": "Came through Watford's youth system",
+   "image": "/static/img/rbmotd/hameur-bouazza.jpg",
+   "credit": "Photo: DWC LR, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Hameur_Bouazza.jpg"
+  },
+  {
+   "id": 35,
+   "name": "Andy Reid",
+   "aka": [],
+   "nationality": "Irish",
+   "position": "Midfielder",
+   "clubs": [
+    "Tottenham Hotspur",
+    "Charlton Athletic",
+    "Sunderland",
+    "Blackpool"
+   ],
+   "fact": "Known for his wand of a left foot",
+   "image": "/static/img/rbmotd/andy-reid.jpg",
+   "credit": "Photo: All-Pro Reels, CC BY-SA 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Andy_Reid_(Kansas_City_Chiefs_at_Washington_Football_Team,_October_17,_2021)_(cropped).jpg"
+  },
+  {
+   "id": 36,
+   "name": "Marouane Chamakh",
+   "aka": [],
+   "nationality": "Moroccan",
+   "position": "Striker",
+   "clubs": [
+    "Arsenal",
+    "West Ham United",
+    "Crystal Palace"
+   ],
+   "fact": "Joined Arsenal on a free from Bordeaux in 2010",
+   "image": "/static/img/rbmotd/marouane-chamakh.jpg",
+   "credit": "Photo: Ronnie Macdonald, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Chamakh_Emirates_Cup_cropped.jpg"
+  },
+  {
+   "id": 37,
+   "name": "Carlton Cole",
+   "aka": [],
+   "nationality": "English",
+   "position": "Striker",
+   "clubs": [
+    "Chelsea",
+    "Aston Villa",
+    "West Ham United"
+   ],
+   "fact": "Spent eight years at West Ham",
+   "image": "/static/img/rbmotd/carlton-cole.jpg",
+   "credit": "Photo: Egghead06, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Carlton_Cole_TV.jpeg"
+  },
+  {
+   "id": 38,
+   "name": "Jlloyd Samuel",
+   "aka": [],
+   "nationality": "Trinidadian",
+   "position": "Left-back",
+   "clubs": [
+    "Aston Villa",
+    "Bolton Wanderers"
+   ],
+   "fact": "Came through Aston Villa's academy",
+   "image": "/static/img/rbmotd/jlloyd-samuel.jpg",
+   "credit": "Photo: Javid Nikpour, CC BY 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jlloyd_Samuel.jpg"
+  },
+  {
+   "id": 39,
+   "name": "Lee Dong-gook",
+   "aka": [],
+   "nationality": "South Korean",
+   "position": "Striker",
+   "clubs": [
+    "Middlesbrough"
+   ],
+   "fact": "Became a K League scoring legend after leaving England",
+   "image": "/static/img/rbmotd/lee-dong-gook.jpg",
+   "credit": "Photo: GOAL TV, CC BY 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:%EC%9D%B4%EB%8F%99%EA%B5%AD_2020%EB%85%84.jpg"
+  },
+  {
+   "id": 40,
+   "name": "Nicky Shorey",
+   "aka": [],
+   "nationality": "English",
+   "position": "Left-back",
+   "clubs": [
+    "Reading",
+    "Aston Villa",
+    "West Bromwich Albion"
+   ],
+   "fact": "Won England caps while playing for Reading",
+   "image": "/static/img/rbmotd/nicky-shorey.jpg",
+   "credit": "Photo: https://www.flickr.com/photos/34517490@N00/, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Nicky_Shorey.jpg"
+  },
+  {
+   "id": 41,
+   "name": "Rigobert Song",
+   "aka": [],
+   "nationality": "Cameroonian",
+   "position": "Centre-back",
+   "clubs": [
+    "Liverpool",
+    "West Ham United"
+   ],
+   "fact": "Was sent off at two different World Cups",
+   "image": "/static/img/rbmotd/rigobert-song.jpg",
+   "credit": "Photo: Jake Brown, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Rigobert_Song_2008.jpg"
+  },
+  {
+   "id": 42,
+   "name": "Florent Sinama Pongolle",
+   "aka": [],
+   "nationality": "French",
+   "position": "Forward",
+   "clubs": [
+    "Liverpool",
+    "Blackburn Rovers"
+   ],
+   "fact": "Scored a famous comeback goal in Liverpool's 2006 FA Cup run",
+   "image": "/static/img/rbmotd/florent-sinama-pongolle.jpg",
+   "credit": "Photo: Шуклин Евгений, CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Florent_Sinama_Pongolle_2012.jpg"
+  },
+  {
+   "id": 43,
+   "name": "Nigel Quashie",
+   "aka": [],
+   "nationality": "Scottish",
+   "position": "Midfielder",
+   "clubs": [
+    "Portsmouth",
+    "Southampton",
+    "West Bromwich Albion",
+    "West Ham United"
+   ],
+   "fact": "Was born in London",
+   "image": null,
+   "credit": null,
+   "source": null
+  },
+  {
+   "id": 44,
+   "name": "Obafemi Martins",
+   "aka": [],
+   "nationality": "Nigerian",
+   "position": "Striker",
+   "clubs": [
+    "Newcastle United",
+    "Birmingham City"
+   ],
+   "fact": "Famous for his somersault celebrations",
+   "image": "/static/img/rbmotd/obafemi-martins.jpg",
+   "credit": "Photo: Martins_Llevant_UD_-_Valencia_CF.jpg: Carlos RM derivativ…, CC BY 2.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Martins_Llevant.jpg"
+  },
+  {
+   "id": 45,
+   "name": "Luís Boa Morte",
+   "aka": [],
+   "nationality": "Portuguese",
+   "position": "Winger",
+   "clubs": [
+    "Southampton",
+    "Fulham",
+    "West Ham United"
+   ],
+   "fact": "Captained Fulham",
+   "image": "/static/img/rbmotd/luis-boa-morte.jpg",
+   "credit": "Photo: Chensiyuan, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Boa_Morte_crop.jpg"
+  },
+  {
+   "id": 46,
+   "name": "Julien Faubert",
+   "aka": [],
+   "nationality": "French",
+   "position": "Winger",
+   "clubs": [
+    "West Ham United"
+   ],
+   "fact": "Had a brief loan spell at Real Madrid in 2009",
+   "image": "/static/img/rbmotd/julien-faubert.jpg",
+   "credit": "Photo: Egghead06 (talk), CC BY-SA 3.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Faubert0410.JPG"
+  },
+  {
+   "id": 47,
+   "name": "Radhi Jaïdi",
+   "aka": [],
+   "nationality": "Tunisian",
+   "position": "Centre-back",
+   "clubs": [
+    "Bolton Wanderers",
+    "Birmingham City",
+    "Southampton"
+   ],
+   "fact": "A towering threat from set pieces",
+   "image": "/static/img/rbmotd/radhi-jaidi.jpg",
+   "credit": "Photo: ESPERANCE SPORTIVE DE TUNIS DIGITAL TEAM., CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Radhi_Jaidi_in_charge_of_Esperance_de_Tunis.jpg"
+  },
+  {
+   "id": 48,
+   "name": "Hermann Hreiðarsson",
+   "aka": [],
+   "nationality": "Icelandic",
+   "position": "Defender",
+   "clubs": [
+    "Wimbledon",
+    "Ipswich Town",
+    "Charlton Athletic",
+    "Portsmouth"
+   ],
+   "fact": "Won the FA Cup with Portsmouth in 2008",
+   "image": "/static/img/rbmotd/hermann-hreiarsson.jpg",
+   "credit": "Photo: Timmy96, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Hermann_Hrei%C3%B0arsson_29032025_(1).jpg"
+  },
+  {
+   "id": 49,
+   "name": "Nwankwo Kanu",
+   "aka": [],
+   "nationality": "Nigerian",
+   "position": "Striker",
+   "clubs": [
+    "Arsenal",
+    "West Bromwich Albion",
+    "Portsmouth"
+   ],
+   "fact": "Scored the winner in the 2008 FA Cup final",
+   "image": "/static/img/rbmotd/nwankwo-kanu.jpg",
+   "credit": "Photo: Original: Chensiyuan / Derivative work: Danyele, CC BY-SA 4.0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:1_nwankwo_kanu_2017_(edited).jpg"
+  },
+  {
+   "id": 50,
+   "name": "Jay-Jay Okocha",
+   "aka": [],
+   "nationality": "Nigerian",
+   "position": "Midfielder",
+   "clubs": [
+    "Bolton Wanderers"
+   ],
+   "fact": "Bolton fans said he was so good they named him twice",
+   "image": "/static/img/rbmotd/jay-jay-okocha.jpg",
+   "credit": "Photo: Unknown authorUnknown author, CC0, via Wikimedia Commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Jj_okocha.jpg"
+  }
+ ]
+}
