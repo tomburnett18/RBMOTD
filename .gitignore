@@ -5,3 +5,5 @@ venv/
 instance/
 .env
 tools/photo_report.html
+.env
+instance/

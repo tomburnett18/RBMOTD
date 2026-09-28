@@ -115,6 +115,40 @@ p { margin: 0; }
 .games .chev { grid-row: 1 / span 3; grid-column: 2; width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; }
 .foot { margin-top: 36px; color: var(--chalk-3); font-size: .8rem; }
 
+/* Account button + leaderboard link on the homepage */
+.account-btn {
+  position: absolute; top: 0; right: 0; z-index: 2;
+  padding: 9px 16px; border-radius: var(--r-pill); border: 2px solid var(--line);
+  color: var(--chalk); text-decoration: none; font-weight: 700; font-size: .85rem;
+  max-width: 45%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.lb-link {
+  display: flex; align-items: center; justify-content: space-between;
+  margin: -18px 0 34px; padding: 14px 18px; border-radius: var(--r-lg);
+  background: rgba(244,247,241,.08); color: var(--chalk); text-decoration: none; font-weight: 700;
+}
+
+/* Forms */
+.fld { display: block; }
+.form-error { color: var(--miss); font-weight: 600; font-size: .9rem; }
+.link { color: var(--chalk-2); font-size: .9rem; font-weight: 600; }
+.switch { display: flex; gap: 12px; align-items: flex-start; }
+.switch input { width: 26px; height: 26px; flex: none; accent-color: var(--flag); margin: 2px 0 0; }
+.sil-big svg { width: 96px; height: 96px; }
+
+/* Leaderboard */
+.lb { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; counter-reset: p; }
+.lb li {
+  display: grid; grid-template-columns: 38px 1fr auto; gap: 4px 10px; align-items: center;
+  padding: 12px 14px; border-radius: var(--r-md); background: rgba(0,0,0,.16);
+}
+.lb li.me { background: var(--chalk); color: var(--pitch); }
+.lb .pos { grid-row: 1 / span 2; font-family: var(--display); font-weight: 900; font-size: 1.5rem; text-align: center; }
+.lb .who { grid-column: 2; grid-row: 1; font-weight: 700; }
+.lb .sub { grid-column: 2; font-size: .78rem; color: var(--chalk-3); }
+.lb li.me .sub { color: rgba(14,74,54,.7); }
+.lb .pts { grid-column: 3; grid-row: 1 / span 2; text-align: right; font-family: var(--display); font-weight: 900; font-size: 1.9rem; }
+
 /* ---------------- Screens ---------------- */
 .topbar { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; min-height: 44px; }
 .back {

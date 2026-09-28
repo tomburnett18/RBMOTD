@@ -40,17 +40,40 @@
   };
 
   // ---------- Data ----------
-  const FILES = ["rbmotd", "gts11", "quiz", "fwordle", "imposter"];
+  const FILES = ["gts11", "quiz", "fwordle", "imposter"];
   App.loadData = async () => {
     const res = await Promise.all(FILES.map(f => fetch(`/static/data/${f}.json`).then(r => r.json())));
     FILES.forEach((f, i) => App.data[f] = res[i]);
+    // The RBMOTD pool comes from the server, with today's official player held back.
+    try {
+      App.data.rbmotd = await App.api("/api/rbmotd/pool");
+    } catch {
+      App.data.rbmotd = { players: [], names: [] };
+    }
     // One shared directory of player names so dropdowns never give away the answer.
     const set = new Set();
-    App.data.rbmotd.players.forEach(p => set.add(p.name));
+    (App.data.rbmotd.names || []).forEach(n => set.add(n));
     App.data.gts11.matches.forEach(m => [...m.homeXI, ...m.awayXI].flat().forEach(n => set.add(n)));
     App.data.imposter.players.forEach(p => set.add(p.name));
     App.directory = [...set].sort((a, b) => a.localeCompare(b));
   };
+
+  // ---------- Talking to the server ----------
+  App.api = async (path, body, method) => {
+    const opts = { method: method || (body ? "POST" : "GET"), credentials: "same-origin" };
+    if (body) { opts.headers = { "Content-Type": "application/json" }; opts.body = JSON.stringify(body); }
+    const res = await fetch(path, opts);
+    let data = {};
+    try { data = await res.json(); } catch { }
+    if (!res.ok) throw new Error(data.error || "Something went wrong. Try again.");
+    return data;
+  };
+  App.refreshMe = async () => {
+    try { App.me = (await App.api("/api/me")).user; } catch { App.me = null; }
+    return App.me;
+  };
+  App.me = null;
+  App.after = null; // where to go after signing in
 
   // ---------- Toast ----------
   let toastTimer;
@@ -220,6 +243,12 @@
     gts11: b => App.games.gts11.mount(b),
     quiz: b => App.games.quiz.mount(b),
     fwordle: b => App.games.fwordle.mount(b),
+    leaderboard: () => App.leaderboard(),
+    signin: () => App.auth.signin(),
+    signup: () => App.auth.signup(),
+    forgot: () => App.auth.forgot(),
+    reset: () => App.auth.reset(location.hash.split("/")[2] || ""),
+    account: () => App.auth.account(),
     imposter: b => App.games.imposter.mount(b)
   };
   App.onLeave = fn => { App.cleanup = fn; };
@@ -241,9 +270,11 @@
 
   function renderHome() {
     const view = document.getElementById("view");
+    const me = App.me;
     view.innerHTML = html`
       <header class="hero">
         <div class="hero-circle" aria-hidden="true"></div>
+        <a class="account-btn" href="#/${me ? "account" : "signin"}">${me ? esc(me.name.split(" ")[0]) : "Sign in"}</a>
         <h1 class="wordmark">RBMOTD<span class="dot">.</span></h1>
         <p>Football games for you and your mates at the pub.</p>
       </header>
@@ -252,10 +283,11 @@
         <div class="sil">${App.icon.silhouette}</div>
         <div>
           <h2>Random Barclays Man of the Day</h2>
-          <p>Name a forgotten Premier League player. Quicker guesses score more.</p>
-          <span class="go">Play</span>
+          <p data-daily>Name a forgotten Premier League player. 1,000 points, minus 10 a second.</p>
+          <span class="go" data-go>Play</span>
         </div>
       </a>
+      <a class="lb-link" href="#/leaderboard">Leaderboard ${App.icon.chev}</a>
 
       <div class="sheet-title">More games</div>
       <ul class="games">
@@ -269,7 +301,40 @@
       </ul>
       <p class="foot">Add RBMOTD to your home screen to play like an app.</p>`;
     window.scrollTo(0, 0);
+    dailyStatus(view);
   }
+
+  // Fills in the daily card once the server says whether today's player is out.
+  async function dailyStatus(view) {
+    let d;
+    try { d = await App.api("/api/daily"); } catch { return; }
+    const line = view.querySelector("[data-daily]");
+    const go = view.querySelector("[data-go]");
+    if (!line) return;
+    if (!d.live) {
+      line.textContent = "Today's player hasn't dropped yet. You'll get an email the moment he does.";
+      go.textContent = "Practice";
+    } else if (!App.me) {
+      line.textContent = "Today's player is live. Sign in to play him and get on the leaderboard.";
+      go.textContent = "Play today's";
+    } else if (d.attempt && d.attempt.finished) {
+      const a = d.attempt;
+      line.textContent = a.solved
+        ? `You got today's in ${Math.round(a.seconds)}s for ${fmt(a.points)} points${a.rank ? `, ${ordinal(a.rank)} of ${a.of}` : ""}.`
+        : "You didn't get today's player. Practice rounds are open.";
+      go.textContent = a.solved ? "See leaderboard" : "Practice";
+      if (a.solved) go.closest("a").setAttribute("href", "#/leaderboard");
+    } else if (d.attempt) {
+      line.textContent = "Today's player is waiting. Your clock is already running.";
+      go.textContent = "Carry on";
+    } else {
+      line.textContent = "Today's player is live. 1,000 points, minus 10 for every second you take.";
+      go.textContent = "Play today's";
+    }
+  }
+
+  const ordinal = n => n + (["th", "st", "nd", "rd"][(n % 100 - n % 10 !== 10) * (n % 10 < 4) * n % 10] || "th");
+  App.ordinal = ordinal;
 
   App.start = async () => {
     const view = document.getElementById("view");
@@ -280,6 +345,7 @@
       view.innerHTML = '<p style="padding-top:35vh;text-align:center">Couldn\'t load the game data. Check your connection and reload.</p>';
       return;
     }
+    await App.refreshMe();
     window.addEventListener("hashchange", route);
     route();
   };

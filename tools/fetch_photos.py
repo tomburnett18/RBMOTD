@@ -27,7 +27,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "static", "data", "rbmotd.json")
+DATA = os.path.join(ROOT, "data", "rbmotd.json")
 IMG_DIR = os.path.join(ROOT, "static", "img", "rbmotd")
 REPORT = os.path.join(ROOT, "tools", "photo_report.html")
 WIKI_API = "https://en.wikipedia.org/w/api.php"
